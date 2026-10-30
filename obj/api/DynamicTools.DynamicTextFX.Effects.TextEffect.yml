@@ -1,0 +1,968 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.TextEffect
+  id: TextEffect
+  parent: DynamicTools.DynamicTextFX.Effects
+  children:
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.#ctor(DynamicTools.DynamicTextFX.IDynamicText,System.Int32,System.Int32)
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.Create(System.String,DynamicTools.DynamicTextFX.IDynamicText,System.Int32,System.Collections.Generic.List{DynamicTools.DynamicTextFX.Syntax.ArgumentNode})
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.EffectTagDictionary
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.EndIndex
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.IsUGUI
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.StartIndex
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.TagName
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.Target
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.TryParseColor(System.String,UnityEngine.Color32@)
+  - DynamicTools.DynamicTextFX.Effects.TextEffect.UpdateEffect(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: TextEffect
+  nameWithType: TextEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect
+  type: Class
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: Based for all possible text effects
+  example: []
+  syntax:
+    content: public abstract class TextEffect
+    content.vb: Public MustInherit Class TextEffect
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - DynamicTools.DynamicTextFX.Effects.BreathingEffect
+  - DynamicTools.DynamicTextFX.Effects.CollapseEffect
+  - DynamicTools.DynamicTextFX.Effects.ColorEffect
+  - DynamicTools.DynamicTextFX.Effects.FallEffect
+  - DynamicTools.DynamicTextFX.Effects.GradientEffect
+  - DynamicTools.DynamicTextFX.Effects.GradientWaveEffect
+  - DynamicTools.DynamicTextFX.Effects.RainbowEffect
+  - DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect
+  - DynamicTools.DynamicTextFX.Effects.ScaleEffect
+  - DynamicTools.DynamicTextFX.Effects.ShakeEffect
+  - DynamicTools.DynamicTextFX.Effects.WobbleEffect
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.TagName
+  commentId: P:DynamicTools.DynamicTextFX.Effects.TextEffect.TagName
+  id: TagName
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: TagName
+  nameWithType: TextEffect.TagName
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.TagName
+  type: Property
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: >-
+    The string to match for tagging in parsing.
+
+    It should be directly implemented as a constant for each effect implementation
+  example: []
+  syntax:
+    content: public abstract string TagName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property TagName As String
+  overload: DynamicTools.DynamicTextFX.Effects.TextEffect.TagName*
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.EffectTagDictionary
+  commentId: F:DynamicTools.DynamicTextFX.Effects.TextEffect.EffectTagDictionary
+  id: EffectTagDictionary
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: EffectTagDictionary
+  nameWithType: TextEffect.EffectTagDictionary
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.EffectTagDictionary
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: Reference to obtain the type based on the tag name of the effect
+  example: []
+  syntax:
+    content: public static Dictionary<string, Type> EffectTagDictionary
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Type}
+    content.vb: Public Shared EffectTagDictionary As Dictionary(Of String, Type)
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.Target
+  commentId: F:DynamicTools.DynamicTextFX.Effects.TextEffect.Target
+  id: Target
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: TextEffect.Target
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.Target
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: The text object to affect
+  example: []
+  syntax:
+    content: public readonly IDynamicText Target
+    return:
+      type: DynamicTools.DynamicTextFX.IDynamicText
+    content.vb: Public ReadOnly Target As IDynamicText
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.StartIndex
+  commentId: F:DynamicTools.DynamicTextFX.Effects.TextEffect.StartIndex
+  id: StartIndex
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: StartIndex
+  nameWithType: TextEffect.StartIndex
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.StartIndex
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: The index in the text where to start the effect
+  example: []
+  syntax:
+    content: public int StartIndex
+    return:
+      type: System.Int32
+    content.vb: Public StartIndex As Integer
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.EndIndex
+  commentId: F:DynamicTools.DynamicTextFX.Effects.TextEffect.EndIndex
+  id: EndIndex
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: EndIndex
+  nameWithType: TextEffect.EndIndex
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.EndIndex
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: The amount of characters to apply the effect to
+  example: []
+  syntax:
+    content: public int EndIndex
+    return:
+      type: System.Int32
+    content.vb: Public EndIndex As Integer
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.IsUGUI
+  commentId: F:DynamicTools.DynamicTextFX.Effects.TextEffect.IsUGUI
+  id: IsUGUI
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: IsUGUI
+  nameWithType: TextEffect.IsUGUI
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.IsUGUI
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: Is the Target UGUI or World Space?
+  example: []
+  syntax:
+    content: public readonly bool IsUGUI
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly IsUGUI As Boolean
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.Create(System.String,DynamicTools.DynamicTextFX.IDynamicText,System.Int32,System.Collections.Generic.List{DynamicTools.DynamicTextFX.Syntax.ArgumentNode})
+  commentId: M:DynamicTools.DynamicTextFX.Effects.TextEffect.Create(System.String,DynamicTools.DynamicTextFX.IDynamicText,System.Int32,System.Collections.Generic.List{DynamicTools.DynamicTextFX.Syntax.ArgumentNode})
+  id: Create(System.String,DynamicTools.DynamicTextFX.IDynamicText,System.Int32,System.Collections.Generic.List{DynamicTools.DynamicTextFX.Syntax.ArgumentNode})
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: Create(string, IDynamicText, int, List<ArgumentNode>)
+  nameWithType: TextEffect.Create(string, IDynamicText, int, List<ArgumentNode>)
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.Create(string, DynamicTools.DynamicTextFX.IDynamicText, int, System.Collections.Generic.List<DynamicTools.DynamicTextFX.Syntax.ArgumentNode>)
+  type: Method
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: >-
+    Creates a new TextEffect of the matching value based on the tag.
+
+    Returns null if the tag is invalid
+  example: []
+  syntax:
+    content: public static TextEffect Create(string tag, IDynamicText target, int startIndex, List<ArgumentNode> arguments)
+    parameters:
+    - id: tag
+      type: System.String
+      description: ''
+    - id: target
+      type: DynamicTools.DynamicTextFX.IDynamicText
+      description: ''
+    - id: startIndex
+      type: System.Int32
+      description: ''
+    - id: arguments
+      type: System.Collections.Generic.List{DynamicTools.DynamicTextFX.Syntax.ArgumentNode}
+      description: ''
+    return:
+      type: DynamicTools.DynamicTextFX.Effects.TextEffect
+      description: ''
+    content.vb: Public Shared Function Create(tag As String, target As IDynamicText, startIndex As Integer, arguments As List(Of ArgumentNode)) As TextEffect
+  overload: DynamicTools.DynamicTextFX.Effects.TextEffect.Create*
+  nameWithType.vb: TextEffect.Create(String, IDynamicText, Integer, List(Of ArgumentNode))
+  fullName.vb: DynamicTools.DynamicTextFX.Effects.TextEffect.Create(String, DynamicTools.DynamicTextFX.IDynamicText, Integer, System.Collections.Generic.List(Of DynamicTools.DynamicTextFX.Syntax.ArgumentNode))
+  name.vb: Create(String, IDynamicText, Integer, List(Of ArgumentNode))
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.#ctor(DynamicTools.DynamicTextFX.IDynamicText,System.Int32,System.Int32)
+  commentId: M:DynamicTools.DynamicTextFX.Effects.TextEffect.#ctor(DynamicTools.DynamicTextFX.IDynamicText,System.Int32,System.Int32)
+  id: '#ctor(DynamicTools.DynamicTextFX.IDynamicText,System.Int32,System.Int32)'
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: TextEffect(IDynamicText, int, int)
+  nameWithType: TextEffect.TextEffect(IDynamicText, int, int)
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.TextEffect(DynamicTools.DynamicTextFX.IDynamicText, int, int)
+  type: Constructor
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  syntax:
+    content: protected TextEffect(IDynamicText target, int startIndex, int endIndex)
+    parameters:
+    - id: target
+      type: DynamicTools.DynamicTextFX.IDynamicText
+    - id: startIndex
+      type: System.Int32
+    - id: endIndex
+      type: System.Int32
+    content.vb: Protected Sub New(target As IDynamicText, startIndex As Integer, endIndex As Integer)
+  overload: DynamicTools.DynamicTextFX.Effects.TextEffect.#ctor*
+  nameWithType.vb: TextEffect.New(IDynamicText, Integer, Integer)
+  fullName.vb: DynamicTools.DynamicTextFX.Effects.TextEffect.New(DynamicTools.DynamicTextFX.IDynamicText, Integer, Integer)
+  name.vb: New(IDynamicText, Integer, Integer)
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.UpdateEffect(System.Single)
+  commentId: M:DynamicTools.DynamicTextFX.Effects.TextEffect.UpdateEffect(System.Single)
+  id: UpdateEffect(System.Single)
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: UpdateEffect(float)
+  nameWithType: TextEffect.UpdateEffect(float)
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.UpdateEffect(float)
+  type: Method
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: Updates the effect state to the target
+  example: []
+  syntax:
+    content: public abstract void UpdateEffect(float time)
+    parameters:
+    - id: time
+      type: System.Single
+    content.vb: Public MustOverride Sub UpdateEffect(time As Single)
+  overload: DynamicTools.DynamicTextFX.Effects.TextEffect.UpdateEffect*
+  nameWithType.vb: TextEffect.UpdateEffect(Single)
+  fullName.vb: DynamicTools.DynamicTextFX.Effects.TextEffect.UpdateEffect(Single)
+  name.vb: UpdateEffect(Single)
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.TryParseColor(System.String,UnityEngine.Color32@)
+  commentId: M:DynamicTools.DynamicTextFX.Effects.TextEffect.TryParseColor(System.String,UnityEngine.Color32@)
+  id: TryParseColor(System.String,UnityEngine.Color32@)
+  parent: DynamicTools.DynamicTextFX.Effects.TextEffect
+  langs:
+  - csharp
+  - vb
+  name: TryParseColor(string, out Color32)
+  nameWithType: TextEffect.TryParseColor(string, out Color32)
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.TryParseColor(string, out UnityEngine.Color32)
+  type: Method
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Effects
+  summary: Helper function to parse a color, attempting to get from the color presets or hmtl parsing
+  example: []
+  syntax:
+    content: protected bool TryParseColor(string tag, out Color32 color)
+    parameters:
+    - id: tag
+      type: System.String
+      description: ''
+    - id: color
+      type: UnityEngine.Color32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Protected Function TryParseColor(tag As String, color As Color32) As Boolean
+  overload: DynamicTools.DynamicTextFX.Effects.TextEffect.TryParseColor*
+  nameWithType.vb: TextEffect.TryParseColor(String, Color32)
+  fullName.vb: DynamicTools.DynamicTextFX.Effects.TextEffect.TryParseColor(String, UnityEngine.Color32)
+  name.vb: TryParseColor(String, Color32)
+references:
+- uid: DynamicTools.DynamicTextFX.Effects
+  commentId: N:DynamicTools.DynamicTextFX.Effects
+  name: DynamicTools.DynamicTextFX.Effects
+  nameWithType: DynamicTools.DynamicTextFX.Effects
+  fullName: DynamicTools.DynamicTextFX.Effects
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Effects
+    name: Effects
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Effects
+    name: Effects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  parent: DynamicTools.DynamicConversations.Extras.Utilities
+  definition: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  isExternal: true
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DynamicTools.DynamicConversations.Extras.Utilities
+  commentId: T:DynamicTools.DynamicConversations.Extras.Utilities
+  parent: DynamicTools.DynamicConversations.Extras
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html
+  name: Utilities
+  nameWithType: Utilities
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities
+- uid: DynamicTools.DynamicConversations.Extras
+  commentId: N:DynamicTools.DynamicConversations.Extras
+  name: DynamicTools.DynamicConversations.Extras
+  nameWithType: DynamicTools.DynamicConversations.Extras
+  fullName: DynamicTools.DynamicConversations.Extras
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.TagName*
+  commentId: Overload:DynamicTools.DynamicTextFX.Effects.TextEffect.TagName
+  href: DynamicTools.DynamicTextFX.Effects.TextEffect.html#DynamicTools_DynamicTextFX_Effects_TextEffect_TagName
+  name: TagName
+  nameWithType: TextEffect.TagName
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.TagName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.Dictionary{System.String,System.Type}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Type>
+  nameWithType: Dictionary<string, Type>
+  fullName: System.Collections.Generic.Dictionary<string, System.Type>
+  nameWithType.vb: Dictionary(Of String, Type)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, System.Type)
+  name.vb: Dictionary(Of String, Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: DynamicTools.DynamicTextFX.IDynamicText
+  commentId: T:DynamicTools.DynamicTextFX.IDynamicText
+  parent: DynamicTools.DynamicTextFX
+  href: DynamicTools.DynamicTextFX.IDynamicText.html
+  name: IDynamicText
+  nameWithType: IDynamicText
+  fullName: DynamicTools.DynamicTextFX.IDynamicText
+- uid: DynamicTools.DynamicTextFX
+  commentId: N:DynamicTools.DynamicTextFX
+  name: DynamicTools.DynamicTextFX
+  nameWithType: DynamicTools.DynamicTextFX
+  fullName: DynamicTools.DynamicTextFX
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.Create*
+  commentId: Overload:DynamicTools.DynamicTextFX.Effects.TextEffect.Create
+  href: DynamicTools.DynamicTextFX.Effects.TextEffect.html#DynamicTools_DynamicTextFX_Effects_TextEffect_Create_System_String_DynamicTools_DynamicTextFX_IDynamicText_System_Int32_System_Collections_Generic_List_DynamicTools_DynamicTextFX_Syntax_ArgumentNode__
+  name: Create
+  nameWithType: TextEffect.Create
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.Create
+- uid: System.Collections.Generic.List{DynamicTools.DynamicTextFX.Syntax.ArgumentNode}
+  commentId: T:System.Collections.Generic.List{DynamicTools.DynamicTextFX.Syntax.ArgumentNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ArgumentNode>
+  nameWithType: List<ArgumentNode>
+  fullName: System.Collections.Generic.List<DynamicTools.DynamicTextFX.Syntax.ArgumentNode>
+  nameWithType.vb: List(Of ArgumentNode)
+  fullName.vb: System.Collections.Generic.List(Of DynamicTools.DynamicTextFX.Syntax.ArgumentNode)
+  name.vb: List(Of ArgumentNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: DynamicTools.DynamicTextFX.Syntax.ArgumentNode
+    name: ArgumentNode
+    href: DynamicTools.DynamicTextFX.Syntax.ArgumentNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DynamicTools.DynamicTextFX.Syntax.ArgumentNode
+    name: ArgumentNode
+    href: DynamicTools.DynamicTextFX.Syntax.ArgumentNode.html
+  - name: )
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.TextEffect
+  parent: DynamicTools.DynamicTextFX.Effects
+  href: DynamicTools.DynamicTextFX.Effects.TextEffect.html
+  name: TextEffect
+  nameWithType: TextEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.#ctor*
+  commentId: Overload:DynamicTools.DynamicTextFX.Effects.TextEffect.#ctor
+  href: DynamicTools.DynamicTextFX.Effects.TextEffect.html#DynamicTools_DynamicTextFX_Effects_TextEffect__ctor_DynamicTools_DynamicTextFX_IDynamicText_System_Int32_System_Int32_
+  name: TextEffect
+  nameWithType: TextEffect.TextEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.TextEffect
+  nameWithType.vb: TextEffect.New
+  fullName.vb: DynamicTools.DynamicTextFX.Effects.TextEffect.New
+  name.vb: New
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.UpdateEffect*
+  commentId: Overload:DynamicTools.DynamicTextFX.Effects.TextEffect.UpdateEffect
+  href: DynamicTools.DynamicTextFX.Effects.TextEffect.html#DynamicTools_DynamicTextFX_Effects_TextEffect_UpdateEffect_System_Single_
+  name: UpdateEffect
+  nameWithType: TextEffect.UpdateEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.UpdateEffect
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect.TryParseColor*
+  commentId: Overload:DynamicTools.DynamicTextFX.Effects.TextEffect.TryParseColor
+  href: DynamicTools.DynamicTextFX.Effects.TextEffect.html#DynamicTools_DynamicTextFX_Effects_TextEffect_TryParseColor_System_String_UnityEngine_Color32__
+  name: TryParseColor
+  nameWithType: TextEffect.TryParseColor
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect.TryParseColor
+- uid: UnityEngine.Color32
+  commentId: T:UnityEngine.Color32
+  parent: UnityEngine
+  isExternal: true
+  name: Color32
+  nameWithType: Color32
+  fullName: UnityEngine.Color32
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

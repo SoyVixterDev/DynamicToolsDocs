@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicTextFX
+  commentId: N:DynamicTools.DynamicTextFX
+  id: DynamicTextFX
+  parent: DynamicTools
+  children:
+  - DynamicTools.DynamicTextFX.DynamicText
+  - DynamicTools.DynamicTextFX.DynamicTextUGUI
+  - DynamicTools.DynamicTextFX.Editor
+  - DynamicTools.DynamicTextFX.Effects
+  - DynamicTools.DynamicTextFX.IDynamicText
+  - DynamicTools.DynamicTextFX.RevealMode
+  - DynamicTools.DynamicTextFX.Reveals
+  - DynamicTools.DynamicTextFX.Syntax
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicTextFX
+  nameWithType: DynamicTools.DynamicTextFX
+  fullName: DynamicTools.DynamicTextFX
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+references:
+- uid: DynamicTools.DynamicTextFX.Editor
+  commentId: N:DynamicTools.DynamicTextFX.Editor
+  name: DynamicTools.DynamicTextFX.Editor
+  nameWithType: DynamicTools.DynamicTextFX.Editor
+  fullName: DynamicTools.DynamicTextFX.Editor
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Editor
+    name: Editor
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Editor
+    name: Editor
+- uid: DynamicTools.DynamicTextFX.Effects
+  commentId: N:DynamicTools.DynamicTextFX.Effects
+  name: DynamicTools.DynamicTextFX.Effects
+  nameWithType: DynamicTools.DynamicTextFX.Effects
+  fullName: DynamicTools.DynamicTextFX.Effects
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Effects
+    name: Effects
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Effects
+    name: Effects
+- uid: DynamicTools.DynamicTextFX.Reveals
+  commentId: N:DynamicTools.DynamicTextFX.Reveals
+  name: DynamicTools.DynamicTextFX.Reveals
+  nameWithType: DynamicTools.DynamicTextFX.Reveals
+  fullName: DynamicTools.DynamicTextFX.Reveals
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Reveals
+    name: Reveals
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Reveals
+    name: Reveals
+- uid: DynamicTools.DynamicTextFX.Syntax
+  commentId: N:DynamicTools.DynamicTextFX.Syntax
+  name: DynamicTools.DynamicTextFX.Syntax
+  nameWithType: DynamicTools.DynamicTextFX.Syntax
+  fullName: DynamicTools.DynamicTextFX.Syntax
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Syntax
+    name: Syntax
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Syntax
+    name: Syntax
+- uid: DynamicTools.DynamicTextFX.DynamicText
+  commentId: T:DynamicTools.DynamicTextFX.DynamicText
+  parent: DynamicTools.DynamicTextFX
+  href: DynamicTools.DynamicTextFX.DynamicText.html
+  name: DynamicText
+  nameWithType: DynamicText
+  fullName: DynamicTools.DynamicTextFX.DynamicText
+- uid: DynamicTools.DynamicTextFX.DynamicTextUGUI
+  commentId: T:DynamicTools.DynamicTextFX.DynamicTextUGUI
+  parent: DynamicTools.DynamicTextFX
+  href: DynamicTools.DynamicTextFX.DynamicTextUGUI.html
+  name: DynamicTextUGUI
+  nameWithType: DynamicTextUGUI
+  fullName: DynamicTools.DynamicTextFX.DynamicTextUGUI
+- uid: DynamicTools.DynamicTextFX.IDynamicText
+  commentId: T:DynamicTools.DynamicTextFX.IDynamicText
+  parent: DynamicTools.DynamicTextFX
+  href: DynamicTools.DynamicTextFX.IDynamicText.html
+  name: IDynamicText
+  nameWithType: IDynamicText
+  fullName: DynamicTools.DynamicTextFX.IDynamicText
+- uid: DynamicTools.DynamicTextFX.RevealMode
+  commentId: T:DynamicTools.DynamicTextFX.RevealMode
+  parent: DynamicTools.DynamicTextFX
+  href: DynamicTools.DynamicTextFX.RevealMode.html
+  name: RevealMode
+  nameWithType: RevealMode
+  fullName: DynamicTools.DynamicTextFX.RevealMode
+- uid: DynamicTools.DynamicTextFX
+  commentId: N:DynamicTools.DynamicTextFX
+  name: DynamicTools.DynamicTextFX
+  nameWithType: DynamicTools.DynamicTextFX
+  fullName: DynamicTools.DynamicTextFX
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX

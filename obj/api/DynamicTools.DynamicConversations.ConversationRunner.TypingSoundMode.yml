@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  commentId: T:DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  id: ConversationRunner.TypingSoundMode
+  parent: DynamicTools.DynamicConversations
+  children:
+  - DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Always
+  - DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Vowels
+  - DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.VowelGroups
+  - DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Words
+  - DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Random
+  langs:
+  - csharp
+  - vb
+  name: ConversationRunner.TypingSoundMode
+  nameWithType: ConversationRunner.TypingSoundMode
+  fullName: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  type: Enum
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  summary: Defines how sounds are played when characters are revealed
+  example: []
+  syntax:
+    content: public enum ConversationRunner.TypingSoundMode
+    content.vb: Public Enum ConversationRunner.TypingSoundMode
+  extensionMethods:
+  - System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+- uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Always
+  commentId: F:DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Always
+  id: Always
+  parent: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: ConversationRunner.TypingSoundMode.Always
+  fullName: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Always
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  summary: Plays sound for every character
+  example: []
+  syntax:
+    content: Always = 0
+    return:
+      type: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+- uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Vowels
+  commentId: F:DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Vowels
+  id: Vowels
+  parent: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  langs:
+  - csharp
+  - vb
+  name: Vowels
+  nameWithType: ConversationRunner.TypingSoundMode.Vowels
+  fullName: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Vowels
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  summary: Plays sound on vowels only
+  example: []
+  syntax:
+    content: Vowels = 1
+    return:
+      type: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+- uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.VowelGroups
+  commentId: F:DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.VowelGroups
+  id: VowelGroups
+  parent: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  langs:
+  - csharp
+  - vb
+  name: VowelGroups
+  nameWithType: ConversationRunner.TypingSoundMode.VowelGroups
+  fullName: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.VowelGroups
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  summary: Plays sound only in the first character of a group of vowels
+  example: []
+  syntax:
+    content: VowelGroups = 2
+    return:
+      type: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+- uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Words
+  commentId: F:DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Words
+  id: Words
+  parent: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  langs:
+  - csharp
+  - vb
+  name: Words
+  nameWithType: ConversationRunner.TypingSoundMode.Words
+  fullName: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Words
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  summary: Plays sound only once at the beginning of a word
+  example: []
+  syntax:
+    content: Words = 3
+    return:
+      type: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+- uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Random
+  commentId: F:DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Random
+  id: Random
+  parent: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  langs:
+  - csharp
+  - vb
+  name: Random
+  nameWithType: ConversationRunner.TypingSoundMode.Random
+  fullName: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.Random
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  summary: Plays sound on 50% of the characters at random
+  example: []
+  syntax:
+    content: Random = 4
+    return:
+      type: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+references:
+- uid: DynamicTools.DynamicConversations
+  commentId: N:DynamicTools.DynamicConversations
+  name: DynamicTools.DynamicConversations
+  nameWithType: DynamicTools.DynamicConversations
+  fullName: DynamicTools.DynamicConversations
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+- uid: System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  parent: DynamicTools.DynamicConversations.Extras.Utilities
+  definition: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  isExternal: true
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DynamicTools.DynamicConversations.Extras.Utilities
+  commentId: T:DynamicTools.DynamicConversations.Extras.Utilities
+  parent: DynamicTools.DynamicConversations.Extras
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html
+  name: Utilities
+  nameWithType: Utilities
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities
+- uid: DynamicTools.DynamicConversations.Extras
+  commentId: N:DynamicTools.DynamicConversations.Extras
+  name: DynamicTools.DynamicConversations.Extras
+  nameWithType: DynamicTools.DynamicConversations.Extras
+  fullName: DynamicTools.DynamicConversations.Extras
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+- uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  commentId: T:DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.ConversationRunner.html
+  name: ConversationRunner.TypingSoundMode
+  nameWithType: ConversationRunner.TypingSoundMode
+  fullName: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.ConversationRunner
+    name: ConversationRunner
+    href: DynamicTools.DynamicConversations.ConversationRunner.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+    name: TypingSoundMode
+    href: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.html
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.ConversationRunner
+    name: ConversationRunner
+    href: DynamicTools.DynamicConversations.ConversationRunner.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+    name: TypingSoundMode
+    href: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.html

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicConversations.Editor.Experimental
+  commentId: N:DynamicTools.DynamicConversations.Editor.Experimental
+  id: Experimental
+  parent: DynamicTools.DynamicConversations.Editor
+  children:
+  - DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicConversations.Editor.Experimental
+  nameWithType: DynamicTools.DynamicConversations.Editor.Experimental
+  fullName: DynamicTools.DynamicConversations.Editor.Experimental
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicConversations.Editor
+references:
+- uid: DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager
+  commentId: T:DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager
+  href: DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager.html
+  name: ConversationImportExportManager
+  nameWithType: ConversationImportExportManager
+  fullName: DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager

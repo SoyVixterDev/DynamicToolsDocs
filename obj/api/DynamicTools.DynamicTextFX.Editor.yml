@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicTextFX.Editor
+  commentId: N:DynamicTools.DynamicTextFX.Editor
+  id: Editor
+  parent: DynamicTools.DynamicTextFX
+  children:
+  - DynamicTools.DynamicTextFX.Editor.DynamicTextEditor
+  - DynamicTools.DynamicTextFX.Editor.DynamicTextUGUIEditor
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicTextFX.Editor
+  nameWithType: DynamicTools.DynamicTextFX.Editor
+  fullName: DynamicTools.DynamicTextFX.Editor
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicTextFX.Editor
+references:
+- uid: DynamicTools.DynamicTextFX.Editor.DynamicTextEditor
+  commentId: T:DynamicTools.DynamicTextFX.Editor.DynamicTextEditor
+  href: DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.html
+  name: DynamicTextEditor
+  nameWithType: DynamicTextEditor
+  fullName: DynamicTools.DynamicTextFX.Editor.DynamicTextEditor
+- uid: DynamicTools.DynamicTextFX.Editor.DynamicTextUGUIEditor
+  commentId: T:DynamicTools.DynamicTextFX.Editor.DynamicTextUGUIEditor
+  href: DynamicTools.DynamicTextFX.Editor.DynamicTextUGUIEditor.html
+  name: DynamicTextUGUIEditor
+  nameWithType: DynamicTextUGUIEditor
+  fullName: DynamicTools.DynamicTextFX.Editor.DynamicTextUGUIEditor

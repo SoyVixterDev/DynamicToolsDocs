@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  id: RevealAnimation
+  parent: DynamicTools.DynamicTextFX.Reveals
+  children:
+  - DynamicTools.DynamicTextFX.Reveals.RevealAnimation.None
+  - DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Appear
+  - DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Pop
+  - DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Fade
+  - DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Pan
+  - DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Expand
+  - DynamicTools.DynamicTextFX.Reveals.RevealAnimation.VerticalExpand
+  langs:
+  - csharp
+  - vb
+  name: RevealAnimation
+  nameWithType: RevealAnimation
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  type: Enum
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Reveals
+  summary: Defines all posible reveal animations
+  example: []
+  syntax:
+    content: public enum RevealAnimation
+    content.vb: Public Enum RevealAnimation
+  extensionMethods:
+  - System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.None
+  commentId: F:DynamicTools.DynamicTextFX.Reveals.RevealAnimation.None
+  id: None
+  parent: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: RevealAnimation.None
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.None
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Reveals
+  syntax:
+    content: None = 0
+    return:
+      type: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Appear
+  commentId: F:DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Appear
+  id: Appear
+  parent: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  langs:
+  - csharp
+  - vb
+  name: Appear
+  nameWithType: RevealAnimation.Appear
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Appear
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Reveals
+  syntax:
+    content: Appear = 1
+    return:
+      type: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Pop
+  commentId: F:DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Pop
+  id: Pop
+  parent: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  langs:
+  - csharp
+  - vb
+  name: Pop
+  nameWithType: RevealAnimation.Pop
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Pop
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Reveals
+  syntax:
+    content: Pop = 2
+    return:
+      type: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Fade
+  commentId: F:DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Fade
+  id: Fade
+  parent: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  langs:
+  - csharp
+  - vb
+  name: Fade
+  nameWithType: RevealAnimation.Fade
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Fade
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Reveals
+  syntax:
+    content: Fade = 3
+    return:
+      type: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Pan
+  commentId: F:DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Pan
+  id: Pan
+  parent: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  langs:
+  - csharp
+  - vb
+  name: Pan
+  nameWithType: RevealAnimation.Pan
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Pan
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Reveals
+  syntax:
+    content: Pan = 4
+    return:
+      type: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Expand
+  commentId: F:DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Expand
+  id: Expand
+  parent: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  langs:
+  - csharp
+  - vb
+  name: Expand
+  nameWithType: RevealAnimation.Expand
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.Expand
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Reveals
+  syntax:
+    content: Expand = 5
+    return:
+      type: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.VerticalExpand
+  commentId: F:DynamicTools.DynamicTextFX.Reveals.RevealAnimation.VerticalExpand
+  id: VerticalExpand
+  parent: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  langs:
+  - csharp
+  - vb
+  name: VerticalExpand
+  nameWithType: RevealAnimation.VerticalExpand
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.VerticalExpand
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+  namespace: DynamicTools.DynamicTextFX.Reveals
+  syntax:
+    content: VerticalExpand = 6
+    return:
+      type: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+references:
+- uid: DynamicTools.DynamicTextFX.Reveals
+  commentId: N:DynamicTools.DynamicTextFX.Reveals
+  name: DynamicTools.DynamicTextFX.Reveals
+  nameWithType: DynamicTools.DynamicTextFX.Reveals
+  fullName: DynamicTools.DynamicTextFX.Reveals
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Reveals
+    name: Reveals
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Reveals
+    name: Reveals
+- uid: System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  parent: DynamicTools.DynamicConversations.Extras.Utilities
+  definition: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  isExternal: true
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DynamicTools.DynamicConversations.Extras.Utilities
+  commentId: T:DynamicTools.DynamicConversations.Extras.Utilities
+  parent: DynamicTools.DynamicConversations.Extras
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html
+  name: Utilities
+  nameWithType: Utilities
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities
+- uid: DynamicTools.DynamicConversations.Extras
+  commentId: N:DynamicTools.DynamicConversations.Extras
+  name: DynamicTools.DynamicConversations.Extras
+  nameWithType: DynamicTools.DynamicConversations.Extras
+  fullName: DynamicTools.DynamicConversations.Extras
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  parent: DynamicTools.DynamicTextFX.Reveals
+  href: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.html
+  name: RevealAnimation
+  nameWithType: RevealAnimation
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation

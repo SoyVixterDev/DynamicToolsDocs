@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicSoundFX
+  commentId: N:DynamicTools.DynamicSoundFX
+  id: DynamicSoundFX
+  parent: DynamicTools
+  children:
+  - DynamicTools.DynamicSoundFX.Editor
+  - DynamicTools.DynamicSoundFX.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicSoundFX
+  nameWithType: DynamicTools.DynamicSoundFX
+  fullName: DynamicTools.DynamicSoundFX
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicSoundFX.Runtime
+references:
+- uid: DynamicTools.DynamicSoundFX.Editor
+  commentId: N:DynamicTools.DynamicSoundFX.Editor
+  name: DynamicTools.DynamicSoundFX.Editor
+  nameWithType: DynamicTools.DynamicSoundFX.Editor
+  fullName: DynamicTools.DynamicSoundFX.Editor
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicSoundFX
+    name: DynamicSoundFX
+  - name: .
+  - uid: DynamicTools.DynamicSoundFX.Editor
+    name: Editor
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicSoundFX
+    name: DynamicSoundFX
+  - name: .
+  - uid: DynamicTools.DynamicSoundFX.Editor
+    name: Editor
+- uid: DynamicTools.DynamicSoundFX.SoundEffect
+  commentId: T:DynamicTools.DynamicSoundFX.SoundEffect
+  parent: DynamicTools.DynamicSoundFX
+  href: DynamicTools.DynamicSoundFX.SoundEffect.html
+  name: SoundEffect
+  nameWithType: SoundEffect
+  fullName: DynamicTools.DynamicSoundFX.SoundEffect
+- uid: DynamicTools.DynamicSoundFX
+  commentId: N:DynamicTools.DynamicSoundFX
+  name: DynamicTools.DynamicSoundFX
+  nameWithType: DynamicTools.DynamicSoundFX
+  fullName: DynamicTools.DynamicSoundFX
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicSoundFX
+    name: DynamicSoundFX
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicSoundFX
+    name: DynamicSoundFX

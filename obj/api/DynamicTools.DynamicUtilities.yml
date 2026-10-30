@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicUtilities
+  commentId: N:DynamicTools.DynamicUtilities
+  id: DynamicUtilities
+  parent: DynamicTools
+  children:
+  - DynamicTools.DynamicUtilities.DynamicDebug
+  - DynamicTools.DynamicUtilities.Editor
+  - DynamicTools.DynamicUtilities.ObjectPool`1
+  - DynamicTools.DynamicUtilities.SerializableDictionary
+  - DynamicTools.DynamicUtilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicUtilities
+  nameWithType: DynamicTools.DynamicUtilities
+  fullName: DynamicTools.DynamicUtilities
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicUtilities.Runtime
+references:
+- uid: DynamicTools.DynamicUtilities.Editor
+  commentId: N:DynamicTools.DynamicUtilities.Editor
+  name: DynamicTools.DynamicUtilities.Editor
+  nameWithType: DynamicTools.DynamicUtilities.Editor
+  fullName: DynamicTools.DynamicUtilities.Editor
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicUtilities
+    name: DynamicUtilities
+  - name: .
+  - uid: DynamicTools.DynamicUtilities.Editor
+    name: Editor
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicUtilities
+    name: DynamicUtilities
+  - name: .
+  - uid: DynamicTools.DynamicUtilities.Editor
+    name: Editor
+- uid: DynamicTools.DynamicUtilities.DynamicDebug
+  commentId: T:DynamicTools.DynamicUtilities.DynamicDebug
+  href: DynamicTools.DynamicUtilities.DynamicDebug.html
+  name: DynamicDebug
+  nameWithType: DynamicDebug
+  fullName: DynamicTools.DynamicUtilities.DynamicDebug
+- uid: DynamicTools.DynamicUtilities.ObjectPool`1
+  commentId: T:DynamicTools.DynamicUtilities.ObjectPool`1
+  href: DynamicTools.DynamicUtilities.ObjectPool-1.html
+  name: ObjectPool<T>
+  nameWithType: ObjectPool<T>
+  fullName: DynamicTools.DynamicUtilities.ObjectPool<T>
+  nameWithType.vb: ObjectPool(Of T)
+  fullName.vb: DynamicTools.DynamicUtilities.ObjectPool(Of T)
+  name.vb: ObjectPool(Of T)
+  spec.csharp:
+  - uid: DynamicTools.DynamicUtilities.ObjectPool`1
+    name: ObjectPool
+    href: DynamicTools.DynamicUtilities.ObjectPool-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: DynamicTools.DynamicUtilities.ObjectPool`1
+    name: ObjectPool
+    href: DynamicTools.DynamicUtilities.ObjectPool-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DynamicTools.DynamicUtilities.SerializableDictionary
+  commentId: T:DynamicTools.DynamicUtilities.SerializableDictionary
+  parent: DynamicTools.DynamicUtilities
+  href: DynamicTools.DynamicUtilities.SerializableDictionary.html
+  name: SerializableDictionary
+  nameWithType: SerializableDictionary
+  fullName: DynamicTools.DynamicUtilities.SerializableDictionary
+- uid: DynamicTools.DynamicUtilities.SerializableDictionary`2
+  commentId: T:DynamicTools.DynamicUtilities.SerializableDictionary`2
+  href: DynamicTools.DynamicUtilities.SerializableDictionary-2.html
+  name: SerializableDictionary<TKey, TValue>
+  nameWithType: SerializableDictionary<TKey, TValue>
+  fullName: DynamicTools.DynamicUtilities.SerializableDictionary<TKey, TValue>
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue)
+  fullName.vb: DynamicTools.DynamicUtilities.SerializableDictionary(Of TKey, TValue)
+  name.vb: SerializableDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: DynamicTools.DynamicUtilities.SerializableDictionary`2
+    name: SerializableDictionary
+    href: DynamicTools.DynamicUtilities.SerializableDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: DynamicTools.DynamicUtilities.SerializableDictionary`2
+    name: SerializableDictionary
+    href: DynamicTools.DynamicUtilities.SerializableDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: DynamicTools.DynamicUtilities
+  commentId: N:DynamicTools.DynamicUtilities
+  name: DynamicTools.DynamicUtilities
+  nameWithType: DynamicTools.DynamicUtilities
+  fullName: DynamicTools.DynamicUtilities
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicUtilities
+    name: DynamicUtilities
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicUtilities
+    name: DynamicUtilities

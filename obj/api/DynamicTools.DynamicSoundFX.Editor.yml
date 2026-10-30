@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicSoundFX.Editor
+  commentId: N:DynamicTools.DynamicSoundFX.Editor
+  id: Editor
+  parent: DynamicTools.DynamicSoundFX
+  children:
+  - DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicSoundFX.Editor
+  nameWithType: DynamicTools.DynamicSoundFX.Editor
+  fullName: DynamicTools.DynamicSoundFX.Editor
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicSoundFX.Editor
+references:
+- uid: DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor
+  commentId: T:DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor
+  href: DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor.html
+  name: SoundEffectEditor
+  nameWithType: SoundEffectEditor
+  fullName: DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicUtilities.Editor
+  commentId: N:DynamicTools.DynamicUtilities.Editor
+  id: Editor
+  parent: DynamicTools.DynamicUtilities
+  children:
+  - DynamicTools.DynamicUtilities.Editor.SerializableDictionaryDrawer
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicUtilities.Editor
+  nameWithType: DynamicTools.DynamicUtilities.Editor
+  fullName: DynamicTools.DynamicUtilities.Editor
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicUtilities.Editor
+references:
+- uid: DynamicTools.DynamicUtilities.Editor.SerializableDictionaryDrawer
+  commentId: T:DynamicTools.DynamicUtilities.Editor.SerializableDictionaryDrawer
+  href: DynamicTools.DynamicUtilities.Editor.SerializableDictionaryDrawer.html
+  name: SerializableDictionaryDrawer
+  nameWithType: SerializableDictionaryDrawer
+  fullName: DynamicTools.DynamicUtilities.Editor.SerializableDictionaryDrawer

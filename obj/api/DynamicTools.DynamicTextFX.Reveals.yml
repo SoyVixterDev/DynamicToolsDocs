@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicTextFX.Reveals
+  commentId: N:DynamicTools.DynamicTextFX.Reveals
+  id: Reveals
+  parent: DynamicTools.DynamicTextFX
+  children:
+  - DynamicTools.DynamicTextFX.Reveals.AppearReveal
+  - DynamicTools.DynamicTextFX.Reveals.ExpandReveal
+  - DynamicTools.DynamicTextFX.Reveals.FadeReveal
+  - DynamicTools.DynamicTextFX.Reveals.PanReveal
+  - DynamicTools.DynamicTextFX.Reveals.PopReveal
+  - DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  - DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation
+  - DynamicTools.DynamicTextFX.Reveals.VerticalExpandReveal
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicTextFX.Reveals
+  nameWithType: DynamicTools.DynamicTextFX.Reveals
+  fullName: DynamicTools.DynamicTextFX.Reveals
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+references:
+- uid: DynamicTools.DynamicTextFX.Reveals.AppearReveal
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.AppearReveal
+  href: DynamicTools.DynamicTextFX.Reveals.AppearReveal.html
+  name: AppearReveal
+  nameWithType: AppearReveal
+  fullName: DynamicTools.DynamicTextFX.Reveals.AppearReveal
+- uid: DynamicTools.DynamicTextFX.Reveals.ExpandReveal
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.ExpandReveal
+  href: DynamicTools.DynamicTextFX.Reveals.ExpandReveal.html
+  name: ExpandReveal
+  nameWithType: ExpandReveal
+  fullName: DynamicTools.DynamicTextFX.Reveals.ExpandReveal
+- uid: DynamicTools.DynamicTextFX.Reveals.FadeReveal
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.FadeReveal
+  href: DynamicTools.DynamicTextFX.Reveals.FadeReveal.html
+  name: FadeReveal
+  nameWithType: FadeReveal
+  fullName: DynamicTools.DynamicTextFX.Reveals.FadeReveal
+- uid: DynamicTools.DynamicTextFX.Reveals.PanReveal
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.PanReveal
+  href: DynamicTools.DynamicTextFX.Reveals.PanReveal.html
+  name: PanReveal
+  nameWithType: PanReveal
+  fullName: DynamicTools.DynamicTextFX.Reveals.PanReveal
+- uid: DynamicTools.DynamicTextFX.Reveals.PopReveal
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.PopReveal
+  href: DynamicTools.DynamicTextFX.Reveals.PopReveal.html
+  name: PopReveal
+  nameWithType: PopReveal
+  fullName: DynamicTools.DynamicTextFX.Reveals.PopReveal
+- uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+  parent: DynamicTools.DynamicTextFX.Reveals
+  href: DynamicTools.DynamicTextFX.Reveals.RevealAnimation.html
+  name: RevealAnimation
+  nameWithType: RevealAnimation
+  fullName: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+- uid: DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation
+  parent: DynamicTools.DynamicTextFX.Reveals
+  href: DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation.html
+  name: TextRevealAnimation
+  nameWithType: TextRevealAnimation
+  fullName: DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation
+- uid: DynamicTools.DynamicTextFX.Reveals.VerticalExpandReveal
+  commentId: T:DynamicTools.DynamicTextFX.Reveals.VerticalExpandReveal
+  href: DynamicTools.DynamicTextFX.Reveals.VerticalExpandReveal.html
+  name: VerticalExpandReveal
+  nameWithType: VerticalExpandReveal
+  fullName: DynamicTools.DynamicTextFX.Reveals.VerticalExpandReveal
+- uid: DynamicTools.DynamicTextFX.Reveals
+  commentId: N:DynamicTools.DynamicTextFX.Reveals
+  name: DynamicTools.DynamicTextFX.Reveals
+  nameWithType: DynamicTools.DynamicTextFX.Reveals
+  fullName: DynamicTools.DynamicTextFX.Reveals
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Reveals
+    name: Reveals
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Reveals
+    name: Reveals

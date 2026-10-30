@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicConversations.Extras.Editor
+  commentId: N:DynamicTools.DynamicConversations.Extras.Editor
+  id: Editor
+  parent: DynamicTools.DynamicConversations.Extras
+  children:
+  - DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicConversations.Extras.Editor
+  nameWithType: DynamicTools.DynamicConversations.Extras.Editor
+  fullName: DynamicTools.DynamicConversations.Extras.Editor
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicConversations.Editor
+references:
+- uid: DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer
+  commentId: T:DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer
+  href: DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer.html
+  name: ListToPopupDrawer
+  nameWithType: ListToPopupDrawer
+  fullName: DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer

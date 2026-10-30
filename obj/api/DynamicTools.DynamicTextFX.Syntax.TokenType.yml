@@ -1,0 +1,336 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.TokenType
+  id: TokenType
+  parent: DynamicTools.DynamicTextFX.Syntax
+  children:
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.OpenBracket
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.CloseBracket
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.Colon
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.Slash
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.Equals
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.Comma
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.OpenCurlyBracket
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.CloseCurlyBracket
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.TextContent
+  - DynamicTools.DynamicTextFX.Syntax.TokenType.EndOfFile
+  langs:
+  - csharp
+  - vb
+  name: TokenType
+  nameWithType: TokenType
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType
+  type: Enum
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  summary: Identifier for all token types used in Dynamic Text
+  example: []
+  syntax:
+    content: public enum TokenType
+    content.vb: Public Enum TokenType
+  extensionMethods:
+  - System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.OpenBracket
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.OpenBracket
+  id: OpenBracket
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: OpenBracket
+  nameWithType: TokenType.OpenBracket
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.OpenBracket
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: OpenBracket = 0
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.CloseBracket
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.CloseBracket
+  id: CloseBracket
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: CloseBracket
+  nameWithType: TokenType.CloseBracket
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.CloseBracket
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: CloseBracket = 1
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.Colon
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.Colon
+  id: Colon
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Colon
+  nameWithType: TokenType.Colon
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.Colon
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: Colon = 2
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.Slash
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.Slash
+  id: Slash
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Slash
+  nameWithType: TokenType.Slash
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.Slash
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: Slash = 3
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.Equals
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.Equals
+  id: Equals
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Equals
+  nameWithType: TokenType.Equals
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.Equals
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: Equals = 4
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.Comma
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.Comma
+  id: Comma
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Comma
+  nameWithType: TokenType.Comma
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.Comma
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: Comma = 5
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.OpenCurlyBracket
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.OpenCurlyBracket
+  id: OpenCurlyBracket
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: OpenCurlyBracket
+  nameWithType: TokenType.OpenCurlyBracket
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.OpenCurlyBracket
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: OpenCurlyBracket = 6
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.CloseCurlyBracket
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.CloseCurlyBracket
+  id: CloseCurlyBracket
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: CloseCurlyBracket
+  nameWithType: TokenType.CloseCurlyBracket
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.CloseCurlyBracket
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: CloseCurlyBracket = 7
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.TextContent
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.TextContent
+  id: TextContent
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: TextContent
+  nameWithType: TokenType.TextContent
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.TextContent
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: TextContent = 8
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType.EndOfFile
+  commentId: F:DynamicTools.DynamicTextFX.Syntax.TokenType.EndOfFile
+  id: EndOfFile
+  parent: DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: EndOfFile
+  nameWithType: TokenType.EndOfFile
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType.EndOfFile
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+  namespace: DynamicTools.DynamicTextFX.Syntax
+  syntax:
+    content: EndOfFile = 9
+    return:
+      type: DynamicTools.DynamicTextFX.Syntax.TokenType
+references:
+- uid: DynamicTools.DynamicTextFX.Syntax
+  commentId: N:DynamicTools.DynamicTextFX.Syntax
+  name: DynamicTools.DynamicTextFX.Syntax
+  nameWithType: DynamicTools.DynamicTextFX.Syntax
+  fullName: DynamicTools.DynamicTextFX.Syntax
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Syntax
+    name: Syntax
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Syntax
+    name: Syntax
+- uid: System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  parent: DynamicTools.DynamicConversations.Extras.Utilities
+  definition: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  isExternal: true
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DynamicTools.DynamicConversations.Extras.Utilities
+  commentId: T:DynamicTools.DynamicConversations.Extras.Utilities
+  parent: DynamicTools.DynamicConversations.Extras
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html
+  name: Utilities
+  nameWithType: Utilities
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities
+- uid: DynamicTools.DynamicConversations.Extras
+  commentId: N:DynamicTools.DynamicConversations.Extras
+  name: DynamicTools.DynamicConversations.Extras
+  nameWithType: DynamicTools.DynamicConversations.Extras
+  fullName: DynamicTools.DynamicConversations.Extras
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.TokenType
+  parent: DynamicTools.DynamicTextFX.Syntax
+  href: DynamicTools.DynamicTextFX.Syntax.TokenType.html
+  name: TokenType
+  nameWithType: TokenType
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType

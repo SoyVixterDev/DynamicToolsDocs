@@ -1,0 +1,2111 @@
+{
+  "docfx_version": "2.81.0+ba844df625370a6bd7c1ecab0d0ec4d1d9128ac4",
+  "source_base_path": "/home/vixter/Projects/Unity/Dynamic Tools/Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Content/DynamicConversations/guides.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/DynamicConversations/guides.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Content/DynamicEvents/guides.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/DynamicEvents/guides.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Content/DynamicSoundFX/guides.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/DynamicSoundFX/guides.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Content/DynamicTextFX/guides.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/DynamicTextFX/guides.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/ChoiceDisplay.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/ChoiceDisplay.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/ChoiceNodeInspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/ChoiceNodeInspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/ConversationRunnerInspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/ConversationRunnerInspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/ConversationView.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/ConversationView.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/CoverDCA.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/CoverDCA.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/CreateDynamicText.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/CreateDynamicText.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/CreateDynamicTextUGUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/CreateDynamicTextUGUI.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/CreateSoundEffect.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/CreateSoundEffect.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/CreateSpeakerProfile.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/CreateSpeakerProfile.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/DynamicTextUGUIInspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/DynamicTextUGUIInspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/EffectDisplay.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/EffectDisplay.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/EventCreation.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/EventCreation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/EventListener.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/EventListener.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/EventNodeInspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/EventNodeInspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/EventSubscriptionExample.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/EventSubscriptionExample.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/GettingStarted.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/GettingStarted.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/LineNodeInspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/LineNodeInspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/LocalizationToolbarDisplay.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/LocalizationToolbarDisplay.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/PortraitSelection.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/PortraitSelection.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/SoundEffectAssetInspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/SoundEffectAssetInspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/SpeakerProfileInspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/SpeakerProfileInspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectBreathing.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectBreathing.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectCollapse.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectCollapse.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectColor.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectColor.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectDisplay.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectDisplay.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectDisplay.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectDisplay.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectFall.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectFall.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectGradient.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectGradient.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectGradientWave.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectGradientWave.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectRainbow.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectRainbow.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectRainbowWave.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectRainbowWave.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectScale.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectScale.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectShake.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectShake.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectSyntax.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectSyntax.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextEffectWobble.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextEffectWobble.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextRevealAnimations.gif",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextRevealAnimations.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/TextRevealProperties.png",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/TextRevealProperties.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Content/Images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "content/images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Content/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.ChoiceNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.ChoiceNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.ChoiceNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.ChoiceNode.yml\" sourcestartlinenumber=\"1\">Node that displays the player with multiple choices and branch the conversation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.ConversationAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.ConversationAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.ConversationAsset",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.ConversationAsset.yml\" sourcestartlinenumber=\"1\">Asset holding a conversation where lines, events, choices and configurations are defined.\nSupports multiple languages</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.ConversationChoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.ConversationChoice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.ConversationChoice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.ConversationReplaceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.ConversationReplaceManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.ConversationReplaceManager",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.ConversationReplaceManager.yml\" sourcestartlinenumber=\"1\">Class controlling data replacement behavior within conversation lines</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode.yml\" sourcestartlinenumber=\"1\">Specifies the way the lines auto advance</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.yml\" sourcestartlinenumber=\"1\">Defines how sounds are played when characters are revealed</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.ConversationRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.ConversationRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.ConversationRunner",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.ConversationRunner.yml\" sourcestartlinenumber=\"1\">Class to run, display and control conversations in runtime</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.ConversationTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.ConversationTree.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.ConversationTree",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.ConversationTree.yml\" sourcestartlinenumber=\"1\">Data holding a single conversation tree, which defines a conversation flow from beginning to end, holds nodes and connections</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.DynamicConversationsPreferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.DynamicConversationsPreferences.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.DynamicConversationsPreferences",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.DynamicConversationsPreferences.yml\" sourcestartlinenumber=\"1\">Controls developer preferences and some runtime configurations like language selection</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.ConversationEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.ConversationEditorWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.ConversationEditorWindow",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Editor.ConversationEditorWindow.yml\" sourcestartlinenumber=\"1\">Editor window script for Conversations</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.ConversationGraphView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.ConversationGraphView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.ConversationGraphView",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Editor.ConversationGraphView.yml\" sourcestartlinenumber=\"1\">A custom implementation for the graph view for conversations</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor.yml\" sourcestartlinenumber=\"1\">Custom editor script for the conversation runnner script</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager.yml\" sourcestartlinenumber=\"1\">Class controlling importing and exporting conversation assets.\nDev Note: Wow this is ugly. Should be refactored someday</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.Experimental.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.Experimental.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.Experimental",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.InspectorView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.InspectorView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.InspectorView",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Editor.InspectorView.yml\" sourcestartlinenumber=\"1\">Custom inspector view definition, used for displaying node properties in the conversation editor window</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.LineNodeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.LineNodeEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.LineNodeEditor",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Editor.LineNodeEditor.yml\" sourcestartlinenumber=\"1\">Custom editor for Line nodes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.NodeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.NodeView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.NodeView",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Editor.NodeView.yml\" sourcestartlinenumber=\"1\">Custom implementation for node viewing within a graph view</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.SplitView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.SplitView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor.SplitView",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Editor.SplitView.yml\" sourcestartlinenumber=\"1\">Exposes TwoPaneSplitView as an accessible uxml element</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Editor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Editor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.EventNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.EventNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.EventNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.EventNode.yml\" sourcestartlinenumber=\"1\">Base class for an event node, which fires an event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.EventNodeBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.EventNodeBool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.EventNodeBool",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.EventNodeBool.yml\" sourcestartlinenumber=\"1\">Event nodes with a boolean parameter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.EventNodeFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.EventNodeFloat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.EventNodeFloat",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.EventNodeFloat.yml\" sourcestartlinenumber=\"1\">Event nodes with a float parameter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.EventNodeInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.EventNodeInteger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.EventNodeInteger",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.EventNodeInteger.yml\" sourcestartlinenumber=\"1\">Event nodes with an integer parameter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.EventNodeString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.EventNodeString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.EventNodeString",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.EventNodeString.yml\" sourcestartlinenumber=\"1\">Event nodes with a string parameter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.EventNodeVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.EventNodeVector2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.EventNodeVector2",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.EventNodeVector2.yml\" sourcestartlinenumber=\"1\">Event nodes with a Vector2 parameter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.EventNodeVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.EventNodeVector3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.EventNodeVector3",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.EventNodeVector3.yml\" sourcestartlinenumber=\"1\">Event nodes with a Vector3 parameter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.EventNodeVoid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.EventNodeVoid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.EventNodeVoid",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.EventNodeVoid.yml\" sourcestartlinenumber=\"1\">Event nodes with no parameters</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Extras.CSVParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Extras.CSVParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Extras.CSVParser",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Extras.CSVParser.yml\" sourcestartlinenumber=\"1\">Parser for CSV files</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer.yml\" sourcestartlinenumber=\"1\">Custom property drawer for displaying a list of strings as a selectable dropdown popup</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Extras.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Extras.Editor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Extras.Editor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Extras.ExportField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Extras.ExportField.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Extras.ExportField",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Extras.ExportField.yml\" sourcestartlinenumber=\"1\">Used by the Dynamic Conversations Exporter, adding this attribute will add the field to the exported file</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Extras.InvalidStringDataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Extras.InvalidStringDataException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Extras.InvalidStringDataException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Extras.ListToPopupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Extras.ListToPopupAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Extras.ListToPopupAttribute",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Extras.ListToPopupAttribute.yml\" sourcestartlinenumber=\"1\">Attribute to display a list as a popup list</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Extras.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Extras.Utilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Extras.Utilities",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Extras.Utilities.yml\" sourcestartlinenumber=\"1\">General utility functions for Dynamic Conversations</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Extras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Extras.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Extras",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.LineNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.LineNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.LineNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.LineNode.yml\" sourcestartlinenumber=\"1\">Node for normal dialogue lines</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Node.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Node",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Node.yml\" sourcestartlinenumber=\"1\">Base implementation for a conversation node</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.Portrait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.Portrait.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.Portrait",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.Portrait.yml\" sourcestartlinenumber=\"1\">Holds data for a single portrait config</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.RootNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.RootNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.RootNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.RootNode.yml\" sourcestartlinenumber=\"1\">Node that defines the start of a conversation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.SimpleNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.SimpleNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.SimpleNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.SimpleNode.yml\" sourcestartlinenumber=\"1\">Base implementation for simple nodes with no branches</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.SpeakerProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.SpeakerProfile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.SpeakerProfile",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.SpeakerProfile.yml\" sourcestartlinenumber=\"1\">Holds speaker data, including portraits, font and sound effects</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.WaitNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.WaitNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations.WaitNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicConversations.WaitNode.yml\" sourcestartlinenumber=\"1\">Node that defines a wait time for the conversation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicConversations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicConversations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicConversations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventChannel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventChannel",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventChannel.yml\" sourcestartlinenumber=\"1\">Base implementation for event channels.\nListeners subscribe to channels of matching types and respond when the channel gets invoked.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventChannelBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventChannelBool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventChannelBool",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventChannelBool.yml\" sourcestartlinenumber=\"1\">Event Channel implementation with a boolean argument</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventChannelFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventChannelFloat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventChannelFloat",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventChannelFloat.yml\" sourcestartlinenumber=\"1\">Event Channel implementation with a float argument</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventChannelInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventChannelInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventChannelInt",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventChannelInt.yml\" sourcestartlinenumber=\"1\">Event Channel implementation with an integer argument</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventChannelString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventChannelString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventChannelString",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventChannelString.yml\" sourcestartlinenumber=\"1\">Event Channel implementation with a string argument</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventChannelVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventChannelVector2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventChannelVector2",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventChannelVector2.yml\" sourcestartlinenumber=\"1\">Event Channel implementation with a Vector2 argument</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventChannelVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventChannelVector3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventChannelVector3",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventChannelVector3.yml\" sourcestartlinenumber=\"1\">Event Channel implementation with a Vector3 argument</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventChannelVoid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventChannelVoid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventChannelVoid",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventChannelVoid.yml\" sourcestartlinenumber=\"1\">Event Channel implementation with no arguments</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventListenerBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventListenerBool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventListenerBool",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventListenerBool.yml\" sourcestartlinenumber=\"1\">Event listener to respond to bool event channels</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventListenerFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventListenerFloat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventListenerFloat",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventListenerFloat.yml\" sourcestartlinenumber=\"1\">Event listener to respond to float event channels</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventListenerInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventListenerInteger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventListenerInteger",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventListenerInteger.yml\" sourcestartlinenumber=\"1\">Event listener to respond to integer event channels</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventListenerString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventListenerString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventListenerString",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventListenerString.yml\" sourcestartlinenumber=\"1\">Event listener to respond to string event channels</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventListenerVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventListenerVector2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventListenerVector2",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventListenerVector2.yml\" sourcestartlinenumber=\"1\">Event listener to respond to Vector2 event channels</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventListenerVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventListenerVector3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventListenerVector3",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventListenerVector3.yml\" sourcestartlinenumber=\"1\">Event listener to respond to Vector3 event channels</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.DynamicEventListenerVoid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.DynamicEventListenerVoid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents.DynamicEventListenerVoid",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicEvents.DynamicEventListenerVoid.yml\" sourcestartlinenumber=\"1\">Event listener to respond to void event channels</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicEvents.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicEvents",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor.yml\" sourcestartlinenumber=\"1\">Custom editor for sound effects</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicSoundFX.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicSoundFX.Editor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicSoundFX.Editor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicSoundFX.SoundEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicSoundFX.SoundEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicSoundFX.SoundEffect",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicSoundFX.SoundEffect.yml\" sourcestartlinenumber=\"1\">Implementation for a scriptable object that serves as a sound effect that can be easily played and previewed</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicSoundFX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicSoundFX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicSoundFX",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.DynamicText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.DynamicText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.DynamicText",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.DynamicText.yml\" sourcestartlinenumber=\"1\">TextMeshPro Extension to implement dynamic text features</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.DynamicTextUGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.DynamicTextUGUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.DynamicTextUGUI",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.DynamicTextUGUI.yml\" sourcestartlinenumber=\"1\">TextMeshProUGUI Extension to implement dynamic text features</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Editor.DynamicTextEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Editor.DynamicTextUGUIEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Editor.DynamicTextUGUIEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Editor.DynamicTextUGUIEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Editor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Editor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.BreathingEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.BreathingEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.BreathingEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.CollapseEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.CollapseEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.CollapseEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.ColorEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.ColorEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.ColorEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.FallEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.FallEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.FallEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.GradientEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.GradientEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.GradientEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.GradientWaveEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.GradientWaveEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.GradientWaveEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.RainbowEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.RainbowEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.RainbowEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.ScaleEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.ScaleEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.ScaleEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.ShakeEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.ShakeEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.ShakeEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.TextEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.TextEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.TextEffect",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Effects.TextEffect.yml\" sourcestartlinenumber=\"1\">Based for all possible text effects</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.WobbleEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.WobbleEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects.WobbleEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Effects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Effects.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Effects",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.IDynamicText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.IDynamicText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.IDynamicText",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.IDynamicText.yml\" sourcestartlinenumber=\"1\">Shared behavior for GUI and WorldSpace DynamicText</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.RevealMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.RevealMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.RevealMode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.RevealMode.yml\" sourcestartlinenumber=\"1\">Defines when the reveal animations start playing</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Reveals.AppearReveal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Reveals.AppearReveal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Reveals.AppearReveal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Reveals.ExpandReveal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Reveals.ExpandReveal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Reveals.ExpandReveal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Reveals.FadeReveal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Reveals.FadeReveal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Reveals.FadeReveal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Reveals.PanReveal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Reveals.PanReveal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Reveals.PanReveal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Reveals.PopReveal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Reveals.PopReveal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Reveals.PopReveal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Reveals.RevealAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Reveals.RevealAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Reveals.RevealAnimation",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Reveals.RevealAnimation.yml\" sourcestartlinenumber=\"1\">Defines all posible reveal animations</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation.yml\" sourcestartlinenumber=\"1\">Base class for text reveal animations</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Reveals.VerticalExpandReveal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Reveals.VerticalExpandReveal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Reveals.VerticalExpandReveal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Reveals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Reveals.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Reveals",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.AST.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.AST.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.AST",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.AST.yml\" sourcestartlinenumber=\"1\">Abstract Syntax Tree, holds node data for all generated nodes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.ArgumentNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.ArgumentNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.ArgumentNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.ArgumentNode.yml\" sourcestartlinenumber=\"1\">Node containing an argument within a tag definition</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.CloseTagNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.CloseTagNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.CloseTagNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.CloseTagNode.yml\" sourcestartlinenumber=\"1\">Node containing a closing tag, signaling the end of a property's effect</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.EvalNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.EvalNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.EvalNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.EvalNode.yml\" sourcestartlinenumber=\"1\">Node containing content to evaluate (ex: Data Replacement)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.Lexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.Lexer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.Lexer",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.Lexer.yml\" sourcestartlinenumber=\"1\">FSA Implementation that transforms raw strings into structured tokens</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.Node.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.Node",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.Node.yml\" sourcestartlinenumber=\"1\">Base record for all AST Nodes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.OpenTagNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.OpenTagNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.OpenTagNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.OpenTagNode.yml\" sourcestartlinenumber=\"1\">Node containing an opening tag definiton, containing a name and a list of arguments</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.Parser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.Parser",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.Parser.yml\" sourcestartlinenumber=\"1\">Parser responsible for building an AST from tokens</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.TextNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.TextNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.TextNode",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.TextNode.yml\" sourcestartlinenumber=\"1\">Node containing simple text</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.Token.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.Token",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.Token.yml\" sourcestartlinenumber=\"1\">Carrier for a single tokenized data point</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.TokenStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.TokenStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.TokenStream",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.TokenStream.yml\" sourcestartlinenumber=\"1\">Provides a Token Stream, allowing for safe lookahead and consumption of tokens</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.TokenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.TokenType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax.TokenType",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicTextFX.Syntax.TokenType.yml\" sourcestartlinenumber=\"1\">Identifier for all token types used in Dynamic Text</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.Syntax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.Syntax.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX.Syntax",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicTextFX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicTextFX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicTextFX",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicUtilities.DynamicDebug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicUtilities.DynamicDebug.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicUtilities.DynamicDebug",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicUtilities.DynamicDebug.yml\" sourcestartlinenumber=\"1\">Helper class for handling debug console prints for dynamic tools.\nOnly active in editor</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicUtilities.Editor.SerializableDictionaryDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicUtilities.Editor.SerializableDictionaryDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicUtilities.Editor.SerializableDictionaryDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicUtilities.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicUtilities.Editor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicUtilities.Editor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicUtilities.ObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicUtilities.ObjectPool-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicUtilities.ObjectPool<T>",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicUtilities.ObjectPool-1.yml\" sourcestartlinenumber=\"1\">Wrapper for object pooling based on Unity's ObjectPool</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicUtilities.SerializableDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicUtilities.SerializableDictionary-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicUtilities.SerializableDictionary<TKey, TValue>",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicUtilities.SerializableDictionary-2.yml\" sourcestartlinenumber=\"1\">Generic Dictionary that can be serialized and edited in inspector</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicUtilities.SerializableDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicUtilities.SerializableDictionary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicUtilities.SerializableDictionary",
+      "Summary": "<p sourcefile=\"obj/api/DynamicTools.DynamicUtilities.SerializableDictionary.yml\" sourcestartlinenumber=\"1\">Base class for serializable dictionaries</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.DynamicUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.DynamicUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DynamicTools.DynamicUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicTools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": null,
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

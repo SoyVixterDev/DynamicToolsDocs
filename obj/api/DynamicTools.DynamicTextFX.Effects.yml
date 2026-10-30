@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicTextFX.Effects
+  commentId: N:DynamicTools.DynamicTextFX.Effects
+  id: Effects
+  parent: DynamicTools.DynamicTextFX
+  children:
+  - DynamicTools.DynamicTextFX.Effects.BreathingEffect
+  - DynamicTools.DynamicTextFX.Effects.CollapseEffect
+  - DynamicTools.DynamicTextFX.Effects.ColorEffect
+  - DynamicTools.DynamicTextFX.Effects.FallEffect
+  - DynamicTools.DynamicTextFX.Effects.GradientEffect
+  - DynamicTools.DynamicTextFX.Effects.GradientWaveEffect
+  - DynamicTools.DynamicTextFX.Effects.RainbowEffect
+  - DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect
+  - DynamicTools.DynamicTextFX.Effects.ScaleEffect
+  - DynamicTools.DynamicTextFX.Effects.ShakeEffect
+  - DynamicTools.DynamicTextFX.Effects.TextEffect
+  - DynamicTools.DynamicTextFX.Effects.WobbleEffect
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicTextFX.Effects
+  nameWithType: DynamicTools.DynamicTextFX.Effects
+  fullName: DynamicTools.DynamicTextFX.Effects
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicTextFX.Runtime
+references:
+- uid: DynamicTools.DynamicTextFX.Effects.BreathingEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.BreathingEffect
+  href: DynamicTools.DynamicTextFX.Effects.BreathingEffect.html
+  name: BreathingEffect
+  nameWithType: BreathingEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.BreathingEffect
+- uid: DynamicTools.DynamicTextFX.Effects.CollapseEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.CollapseEffect
+  href: DynamicTools.DynamicTextFX.Effects.CollapseEffect.html
+  name: CollapseEffect
+  nameWithType: CollapseEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.CollapseEffect
+- uid: DynamicTools.DynamicTextFX.Effects.ColorEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.ColorEffect
+  href: DynamicTools.DynamicTextFX.Effects.ColorEffect.html
+  name: ColorEffect
+  nameWithType: ColorEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.ColorEffect
+- uid: DynamicTools.DynamicTextFX.Effects.FallEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.FallEffect
+  href: DynamicTools.DynamicTextFX.Effects.FallEffect.html
+  name: FallEffect
+  nameWithType: FallEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.FallEffect
+- uid: DynamicTools.DynamicTextFX.Effects.GradientEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.GradientEffect
+  href: DynamicTools.DynamicTextFX.Effects.GradientEffect.html
+  name: GradientEffect
+  nameWithType: GradientEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.GradientEffect
+- uid: DynamicTools.DynamicTextFX.Effects.GradientWaveEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.GradientWaveEffect
+  href: DynamicTools.DynamicTextFX.Effects.GradientWaveEffect.html
+  name: GradientWaveEffect
+  nameWithType: GradientWaveEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.GradientWaveEffect
+- uid: DynamicTools.DynamicTextFX.Effects.RainbowEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.RainbowEffect
+  href: DynamicTools.DynamicTextFX.Effects.RainbowEffect.html
+  name: RainbowEffect
+  nameWithType: RainbowEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.RainbowEffect
+- uid: DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect
+  href: DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect.html
+  name: RainbowWaveEffect
+  nameWithType: RainbowWaveEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect
+- uid: DynamicTools.DynamicTextFX.Effects.ScaleEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.ScaleEffect
+  href: DynamicTools.DynamicTextFX.Effects.ScaleEffect.html
+  name: ScaleEffect
+  nameWithType: ScaleEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.ScaleEffect
+- uid: DynamicTools.DynamicTextFX.Effects.ShakeEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.ShakeEffect
+  href: DynamicTools.DynamicTextFX.Effects.ShakeEffect.html
+  name: ShakeEffect
+  nameWithType: ShakeEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.ShakeEffect
+- uid: DynamicTools.DynamicTextFX.Effects.TextEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.TextEffect
+  parent: DynamicTools.DynamicTextFX.Effects
+  href: DynamicTools.DynamicTextFX.Effects.TextEffect.html
+  name: TextEffect
+  nameWithType: TextEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.TextEffect
+- uid: DynamicTools.DynamicTextFX.Effects.WobbleEffect
+  commentId: T:DynamicTools.DynamicTextFX.Effects.WobbleEffect
+  href: DynamicTools.DynamicTextFX.Effects.WobbleEffect.html
+  name: WobbleEffect
+  nameWithType: WobbleEffect
+  fullName: DynamicTools.DynamicTextFX.Effects.WobbleEffect
+- uid: DynamicTools.DynamicTextFX.Effects
+  commentId: N:DynamicTools.DynamicTextFX.Effects
+  name: DynamicTools.DynamicTextFX.Effects
+  nameWithType: DynamicTools.DynamicTextFX.Effects
+  fullName: DynamicTools.DynamicTextFX.Effects
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Effects
+    name: Effects
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Effects
+    name: Effects

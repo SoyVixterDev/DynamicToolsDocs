@@ -1,0 +1,79 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "DynamicTools*.csproj"
+          ],
+          "exclude": [
+            "*Examples*.csproj"
+          ],
+          "src": "../" 
+        }
+      ],
+      "namespaceLayout": "nested",
+      "enumSortOrder": "declaringOrder",
+      "output": "obj/api",
+      "disableGitFeatures": true
+    }
+  ],
+
+  "build": {
+    "disableGitFeatures": true,
+    "content": [
+      {
+        "files":[
+          "Index.md"
+        ],
+        "src": "Content",
+        "dest": "."
+      },
+      {
+        "files": [ 
+          "**/*.md"
+        ], 
+        "src": "Content", 
+        "dest": "content"
+      },
+      {
+        "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
+        "src": "obj/api",
+        "dest": "api"
+      }
+    ],
+    "resource": [
+      {
+        "files": [ "**" ],
+        "src": "Content/Images",
+        "dest": "content/images"
+      },
+      {
+        "files": [ "Content/Images/favicon.ico"]
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "Dynamic Tools Docs",
+      "_appName": "DynamicTools",
+      "_enableSearch": true,
+      "_disableContributions": true,
+      "_appLogoPath": "content/images/logo.svg",
+      "_appFaviconPath": "content/images/favicon.ico"
+    },
+    "template": 
+    [
+      "default",
+      "modern",
+      "Template"
+    ],
+    "output": "_site" 
+  },
+  "rules": {
+    "InvalidCref": "info"
+  }
+}

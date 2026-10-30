@@ -1,0 +1,2822 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DynamicTextUGUI | Dynamic Tools Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DynamicTextUGUI | Dynamic Tools Docs ">
+      
+      <meta name="description" content="TextMeshProUGUI Extension to implement dynamic text features">
+      <link rel="icon" href="../content/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../content/images/logo.svg" alt="DynamicTools">
+            DynamicTools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI">
+
+
+
+  <h1 id="DynamicTools_DynamicTextFX_DynamicTextUGUI" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI" class="text-break">
+Class DynamicTextUGUI  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DynamicTools.html">DynamicTools</a>.<a class="xref" href="DynamicTools.DynamicTextFX.html">DynamicTextFX</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DynamicTools.DynamicTextFX.Runtime.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>TextMeshProUGUI Extension to implement dynamic text features</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DynamicTextUGUI : TextMeshProUGUI, ICanvasElement, IClippable, IMaskable, IMaterialModifier, ILayoutElement, IDynamicText, ITextPreprocessor</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><span class="xref">UIBehaviour</span></div>
+      <div><span class="xref">Graphic</span></div>
+      <div><span class="xref">MaskableGraphic</span></div>
+      <div><span class="xref">TMP_Text</span></div>
+      <div><span class="xref">TextMeshProUGUI</span></div>
+      <div><span class="xref">DynamicTextUGUI</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">ICanvasElement</span></div>
+      <div><span class="xref">IClippable</span></div>
+      <div><span class="xref">IMaskable</span></div>
+      <div><span class="xref">IMaterialModifier</span></div>
+      <div><span class="xref">ILayoutElement</span></div>
+      <div><a class="xref" href="DynamicTools.DynamicTextFX.IDynamicText.html">IDynamicText</a></div>
+      <div><span class="xref">ITextPreprocessor</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">TextMeshProUGUI.materialForRendering</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.autoSizeTextContainer</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.mesh</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.canvasRenderer</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.CalculateLayoutInputHorizontal()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.CalculateLayoutInputVertical()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetVerticesDirty()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetLayoutDirty()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetMaterialDirty()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetAllDirty()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.Rebuild(CanvasUpdate)</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.GetModifiedMaterial(Material)</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.UpdateMaterial()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.maskOffset</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.RecalculateClipping()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TextMeshProUGUI.Cull(Rect, bool)</a>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.UpdateMeshPadding()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TextMeshProUGUI.InternalCrossFadeColor(Color, float, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TextMeshProUGUI.InternalCrossFadeAlpha(float, float, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TextMeshProUGUI.ForceMeshUpdate(bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TextMeshProUGUI.GetTextInfo(string)</a>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.ClearMesh()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.OnPreRenderText</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TextMeshProUGUI.UpdateGeometry(Mesh, int)</a>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.UpdateVertexData(TMP_VertexDataUpdateFlags)</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.UpdateVertexData()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.UpdateFontAsset()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.m_subTextObjects</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.OnDestroy()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.Reset()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.LoadFontAsset()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.GetMaterial(Material)</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.GetMaterials(Material[])</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetSharedMaterial(Material)</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.GetSharedMaterials()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetSharedMaterials(Material[])</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TextMeshProUGUI.SetOutlineThickness(float)</a>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetFaceColor(Color32)</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetOutlineColor(Color32)</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetShaderDepth()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.SetCulling()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.ComputeMarginSize()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.OnDidApplyAnimationProperties()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.OnCanvasHierarchyChanged()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.OnTransformParentChanged()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.OnRectTransformDimensionsChange()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.GenerateTextMesh()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.GetTextContainerLocalCorners()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TextMeshProUGUI.SetActiveSubMeshes(bool)</a>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.DestroySubMeshObjects()</span>
+    </div>
+    <div>
+      <span class="xref">TextMeshProUGUI.GetCompoundBounds()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.text</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_text</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.textPreprocessor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_TextPreprocessor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isRightToLeftText</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isRightToLeft</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.font</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontAsset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_currentFontAsset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isSDFShader</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontSharedMaterial</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_sharedMaterial</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_currentMaterial</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_materialReferences</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_materialReferenceIndexLookup</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_materialReferenceStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_currentMaterialIndex</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontSharedMaterials</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontSharedMaterials</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontMaterial</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontMaterial</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontMaterials</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontMaterials</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isMaterialDirty</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.color</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontColor32</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontColor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.s_colorWhite</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_underlineColor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_strikethroughColor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.alpha</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.enableVertexGradient</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_enableVertexGradient</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_colorMode</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.colorGradient</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontColorGradient</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.colorGradientPreset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontColorGradientPreset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.spriteAsset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_spriteAsset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.tintAllSprites</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_tintAllSprites</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_tintSprite</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_spriteColor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.styleSheet</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_StyleSheet</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.textStyle</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_TextStyleHashCode</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.overrideColorTags</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_overrideHtmlColors</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.faceColor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_faceColor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.outlineColor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_outlineColor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.outlineWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_outlineWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_currentEnvMapRotation</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_hasEnvMapProperty</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontSize</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontSize</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_currentFontSize</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontSizeBase</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_sizeStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontWeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontWeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_FontWeightInternal</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_FontWeightStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.pixelsPerUnit</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.enableAutoSizing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_enableAutoSizing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxFontSize</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_minFontSize</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_AutoSizeIterationCount</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_AutoSizeMaxIterationCount</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_IsAutoSizePointSizeSet</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontSizeMin</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontSizeMin</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontSizeMax</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontSizeMax</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontStyle</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontStyle</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_FontStyleInternal</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontStyleStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isUsingBold</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isUsingBold</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.horizontalAlignment</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_HorizontalAlignment</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.verticalAlignment</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_VerticalAlignment</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.alignment</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_textAlignment</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineJustification</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineJustificationStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_textContainerLocalCorners</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.characterSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_characterSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_cSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_monoSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_duoSpace</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.characterHorizontalScale</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.wordSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_wordSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.lineSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineSpacingDelta</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_IsDrivenLineSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.lineSpacingAdjustment</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineSpacingMax</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.paragraphSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_paragraphSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.characterWidthAdjustment</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_charWidthMaxAdj</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_charWidthAdjDelta</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.textWrappingMode</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.enableWordWrapping</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_TextWrappingMode</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isCharacterWrappingEnabled</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isNonBreakingSpace</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isIgnoringAlignment</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.wordWrappingRatios</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_wordWrappingRatios</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.overflowMode</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_overflowMode</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isTextOverflowing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.firstOverflowCharacterIndex</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_firstOverflowCharacterIndex</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.linkedTextComponent</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_linkedTextComponent</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isTextTruncated</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isTextTruncated</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.enableKerning</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_enableKerning</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_LastBaseGlyphIndex</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.fontFeatures</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_ActiveFontFeatures</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.extraPadding</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_enableExtraPadding</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.checkPaddingRequired</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.richText</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isRichText</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.emojiFallbackSupport</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.parseCtrlCharacters</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_parseCtrlCharacters</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isOverlay</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isOverlay</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isOrthographic</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isOrthographic</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.enableCulling</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isCullingEnabled</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isMaskingEnabled</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isMaskUpdateRequired</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.ignoreVisibility</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_ignoreCulling</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.horizontalMapping</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_horizontalMapping</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.verticalMapping</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_verticalMapping</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.mappingUvLineOffset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_uvLineOffset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.renderMode</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_renderMode</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.geometrySortingOrder</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_geometrySortingOrder</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isTextObjectScaleStatic</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_IsTextObjectScaleStatic</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.vertexBufferAutoSizeReduction</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_VertexBufferAutoSizeReduction</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.firstVisibleCharacter</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_firstVisibleCharacter</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.maxVisibleCharacters</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxVisibleCharacters</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.maxVisibleWords</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxVisibleWords</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.maxVisibleLines</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxVisibleLines</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.useMaxVisibleDescender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_useMaxVisibleDescender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.pageToDisplay</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_pageToDisplay</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isNewPage</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.margin</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_margin</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_marginLeft</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_marginRight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_marginWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_marginHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_width</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.textInfo</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_textInfo</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.havePropertiesChanged</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_havePropertiesChanged</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isUsingLegacyAnimationComponent</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isUsingLegacyAnimationComponent</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.transform</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_transform</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.rectTransform</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_rectTransform</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_PreviousRectTransformSize</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_PreviousPivotPosition</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_autoSizeTextContainer</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_mesh</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.isVolumetricText</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isVolumetricText</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.bounds</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.textBounds</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.OnFontAssetRequest</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.OnSpriteAssetRequest</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.OnMissingCharacter</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.spriteAnimator</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_spriteAnimator</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.flexibleHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_flexibleHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.flexibleWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_flexibleWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.minWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_minWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.minHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_minHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.maxWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.maxHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.layoutElement</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_LayoutElement</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.preferredWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_preferredWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_RenderedWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isPreferredWidthDirty</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.preferredHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_preferredHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_RenderedHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isPreferredHeightDirty</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isCalculatingPreferredValues</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.renderedWidth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.renderedHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.layoutPriority</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_layoutPriority</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isLayoutDirty</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isAwake</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_fontScaleMultiplier</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.tag_LineIndent</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.tag_Indent</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_indentStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.tag_NoParsing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_isTextLayoutPhase</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_FXRotation</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_FXScale</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_totalCharacterCount</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_characterCount</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_firstCharacterOfLine</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_firstVisibleCharacterOfLine</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lastCharacterOfLine</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lastVisibleCharacterOfLine</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineNumber</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineVisibleCharacterCount</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineVisibleSpaceCount</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_pageNumber</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_PageAscender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxTextAscender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxCapHeight</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_ElementAscender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_ElementDescender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxLineAscender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_maxLineDescender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_startOfLineAscender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_startOfLineDescender</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_lineOffset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_meshExtents</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_htmlColor</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_colorStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_underlineColorStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_strikethroughColorStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_HighlightStateStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_colorGradientPreset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_colorGradientStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_colorGradientPresetIsTinted</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_tabSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_spacing</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_TextStyleStacks</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_TextStyleStackDepth</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_ItalicAngleStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_ItalicAngle</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_actionStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_padding</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_baselineOffset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_baselineOffsetStack</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_xAdvance</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_textElementType</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_cached_TextElement</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_Ellipsis</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_Underline</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_defaultSpriteAsset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_currentSpriteAsset</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_spriteCount</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_spriteIndex</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_spriteAnimationID</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.SetFontBaseMaterial(Material)</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.CreateMaterialInstance(Material)</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.SetVertexColorGradient(TMP_ColorGradient)</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.SetTextSortingOrder(VertexSortingOrder)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.SetTextSortingOrder(int[])</a>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetPaddingForMaterial()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetPaddingForMaterial(Material)</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.m_ignoreActiveState</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.SetVertices(Vector3[])</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TMP_Text.CrossFadeColor(Color, float, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TMP_Text.CrossFadeAlpha(float, float, bool)</a>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.ParseInputText()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string, float, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string, float, float, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string, float, float, float, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string, float, float, float, float, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string, float, float, float, float, float, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.SetText(string, float, float, float, float, float, float, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">TMP_Text.SetText(StringBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">TMP_Text.SetText(char[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">TMP_Text.SetText(char[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">TMP_Text.SetCharArray(char[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">TMP_Text.SetCharArray(char[], int, int)</a>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetPreferredValues()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TMP_Text.GetPreferredValues(float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.GetPreferredValues(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TMP_Text.GetPreferredValues(string, float, float)</a>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetPreferredWidth()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetPreferredHeight()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetRenderedValues()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TMP_Text.GetRenderedValues(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TMP_Text.GetRenderedWidth(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TMP_Text.GetRenderedHeight(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TMP_Text.CalculatePreferredValues(ref float, Vector2, bool, TextWrappingModes)</a>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetTextBounds()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TMP_Text.GetTextBounds(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.AdjustLineOffset(int, int, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.ResizeLineExtents(int)</a>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.k_LargePositiveVector2</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.k_LargeNegativeVector2</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.k_LargePositiveFloat</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.k_LargeNegativeFloat</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.k_LargePositiveInt</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.k_LargeNegativeInt</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TMP_Text.SaveGlyphVertexInfo(float, float, Color32)</a>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.SaveSpriteVertexInfo(Color32)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.FillCharacterVertexBuffers(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.FillCharacterVertexBuffers(int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.FillSpriteVertexBuffers(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.DrawUnderlineMesh(Vector3, Vector3, ref int, float, float, float, float, Color32)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.DrawTextHighlight(Vector3, Vector3, ref int, Color32)</a>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.LoadDefaultSettings()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetSpecialCharacters(TMP_FontAsset)</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetEllipsisSpecialCharacter(TMP_FontAsset)</span>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetUnderlineSpecialCharacter(TMP_FontAsset)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.ReplaceTagWithCharacter(int[], int, int, char)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.GetFontAssetForWeight(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TMP_Text.ClearMesh(bool)</a>
+    </div>
+    <div>
+      <span class="xref">TMP_Text.GetParsedText()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TMP_Text.DoMissingGlyphCallback(int, int, TMP_FontAsset)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TMP_Text.PackUV(float, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TMP_Text.PackUV(float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">TMP_Text.HexToInt(char)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">TMP_Text.HexCharsToColor(char[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">TMP_Text.HexCharsToColor(char[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">TMP_Text.ConvertToFloat(char[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">TMP_Text.ConvertToFloat(char[], int, int, out int)</a>
+    </div>
+    <div>
+      <span class="xref">MaskableGraphic.m_ShouldRecalculateStencil</span>
+    </div>
+    <div>
+      <span class="xref">MaskableGraphic.m_MaskMaterial</span>
+    </div>
+    <div>
+      <span class="xref">MaskableGraphic.onCullStateChanged</span>
+    </div>
+    <div>
+      <span class="xref">MaskableGraphic.maskable</span>
+    </div>
+    <div>
+      <span class="xref">MaskableGraphic.isMaskingGraphic</span>
+    </div>
+    <div>
+      <span class="xref">MaskableGraphic.m_StencilValue</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">MaskableGraphic.SetClipRect(Rect, bool)</a>
+    </div>
+    <div>
+      <span class="xref">MaskableGraphic.SetClipSoftness(Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">MaskableGraphic.RecalculateMasking()</span>
+    </div>
+    <div>
+      <span class="xref">MaskableGraphic.Raycast(Vector2, Camera)</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.s_DefaultUI</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.s_WhiteTexture</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.defaultGraphicMaterial</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.m_Material</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.m_SkipLayoutUpdate</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.m_SkipMaterialUpdate</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.raycastTarget</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.raycastPadding</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.m_OnDirtyLayoutCallback</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.m_OnDirtyVertsCallback</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.m_OnDirtyMaterialCallback</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.s_Mesh</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.m_CachedMesh</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.m_CachedUvs</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.useLegacyMeshGeneration</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.SetRaycastDirty()</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.OnBeforeTransformParentChanged()</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.depth</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.canvas</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.defaultMaterial</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.material</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.mainTexture</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.OnCullingChanged()</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.LayoutComplete()</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.GraphicUpdateComplete()</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.UpdateGeometry()</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.workerMesh</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.OnPopulateMesh(Mesh)</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.OnPopulateMesh(VertexHelper)</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.OnRebuildRequested()</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.SetNativeSize()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Graphic.Raycast(Vector2, Camera, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Graphic.PixelAdjustPoint(Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.GetPixelAdjustedRect()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Graphic.CrossFadeColor(Color, float, bool, bool, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Graphic.RegisterDirtyLayoutCallback(UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.UnregisterDirtyLayoutCallback(UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.RegisterDirtyVerticesCallback(UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.UnregisterDirtyVerticesCallback(UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.RegisterDirtyMaterialCallback(UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">Graphic.UnregisterDirtyMaterialCallback(UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">UIBehaviour.Start()</span>
+    </div>
+    <div>
+      <span class="xref">UIBehaviour.IsActive()</span>
+    </div>
+    <div>
+      <span class="xref">UIBehaviour.OnCanvasGroupChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UIBehaviour.IsDestroyed()</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.Invoke(string, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.InvokeRepeating(string, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.CancelInvoke(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.IsInvoking(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine_Auto(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StopCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.StopCoroutine(Coroutine)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StopCoroutine(string)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">MonoBehaviour.print(object)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.destroyCancellationToken</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.didStart</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.didAwake</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponent(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.TryGetComponent(Type, out Component)</a>
+    </div>
+    <div>
+      <span class="xref">Component.TryGetComponent&lt;T&gt;(out T)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.GetComponent(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponentsInChildren&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type, List&lt;Component&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponents&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentIndex()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.CompareTag(string)</a>
+    </div>
+    <div>
+      <span class="xref">Component.CompareTag(TagHandle)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <span class="xref">Component.transformHandle</span>
+    </div>
+    <div>
+      <span class="xref">Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetEntityId()</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetHashCode()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T, Transform, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, Vector3, Quaternion, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">Object.InstantiateAsync&lt;T&gt;(T, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">Object.InstantiateAsync&lt;T&gt;(T, Vector3, Quaternion, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Vector3, Quaternion, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Scene)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, InstantiateParameters)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, InstantiateParameters)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate(Object, Transform, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate&lt;T&gt;(T, Transform, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.Destroy(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Destroy(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.DestroyImmediate(Object, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyImmediate(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsInactive, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DontDestroyOnLoad(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.DestroyObject(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyObject(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsByType&lt;T&gt;(FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.FindObjectsOfType&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsByType&lt;T&gt;(FindObjectsInactive, FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.FindObjectOfType&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindFirstObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindAnyObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindFirstObjectByType&lt;T&gt;(FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindAnyObjectByType&lt;T&gt;(FindObjectsInactive)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <span class="xref">Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">Object.name</span>
+    </div>
+    <div>
+      <span class="xref">Object.hideFlags</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_">Utilities.IsGenericList(object)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_m_colorPresets" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.m_colorPresets">
+  m_colorPresets
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected SerializableDictionary&lt;string, Color32&gt; m_colorPresets</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DynamicTools.DynamicUtilities.SerializableDictionary-2.html">SerializableDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Color32</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_m_replacementData" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.m_replacementData">
+  m_replacementData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Dictionary&lt;string, Func&lt;string&gt;&gt; m_replacementData</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_m_revealAnimation" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.m_revealAnimation">
+  m_revealAnimation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected RevealAnimation m_revealAnimation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DynamicTools.DynamicTextFX.Reveals.RevealAnimation.html">RevealAnimation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_m_revealAnimationSpeed" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.m_revealAnimationSpeed">
+  m_revealAnimationSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected float m_revealAnimationSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_m_revealAnimationStrength" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.m_revealAnimationStrength">
+  m_revealAnimationStrength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected float m_revealAnimationStrength</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_m_revealMode" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.m_revealMode">
+  m_revealMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected RevealMode m_revealMode</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DynamicTools.DynamicTextFX.RevealMode.html">RevealMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_m_revealPauseConfig" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.m_revealPauseConfig">
+  m_revealPauseConfig
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected SerializableDictionary&lt;char, float&gt; m_revealPauseConfig</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DynamicTools.DynamicUtilities.SerializableDictionary-2.html">SerializableDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_m_revealSpeed" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.m_revealSpeed">
+  m_revealSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected float m_revealSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_CharacterRevealed_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.CharacterRevealed*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_CharacterRevealed" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.CharacterRevealed">
+  CharacterRevealed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;char&gt; CharacterRevealed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_ColorPresets_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.ColorPresets*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_ColorPresets" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.ColorPresets">
+  ColorPresets
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dictionary mapping color names to user-defined presets</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SerializableDictionary&lt;string, Color32&gt; ColorPresets { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DynamicTools.DynamicUtilities.SerializableDictionary-2.html">SerializableDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">Color32</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_FinishedReveal_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.FinishedReveal*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_FinishedReveal" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.FinishedReveal">
+  FinishedReveal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action FinishedReveal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_IsVisible_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.IsVisible*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_IsVisible" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.IsVisible">
+  IsVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Controls if the text body is visible</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsVisible { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_ReplacementData_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.ReplacementData*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_ReplacementData" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.ReplacementData">
+  ReplacementData
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dictionary mapping variable names to values used in Eval tags by replacing them with their corresponding values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Func&lt;string&gt;&gt; ReplacementData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealAnimation_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealAnimation*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealAnimation" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealAnimation">
+  RevealAnimation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The reveal animation to use</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RevealAnimation RevealAnimation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DynamicTools.DynamicTextFX.Reveals.RevealAnimation.html">RevealAnimation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealAnimationSpeed_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealAnimationSpeed*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealAnimationSpeed" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealAnimationSpeed">
+  RevealAnimationSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The speed at which reveal animation is played</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RevealAnimationSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealAnimationStrength_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealAnimationStrength*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealAnimationStrength" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealAnimationStrength">
+  RevealAnimationStrength
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The strength of the reveal animation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RevealAnimationStrength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealMode_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealMode*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealMode" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealMode">
+  RevealMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defines when the reveal animations start playing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RevealMode RevealMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DynamicTools.DynamicTextFX.RevealMode.html">RevealMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealPauseConfig_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealPauseConfig*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealPauseConfig" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealPauseConfig">
+  RevealPauseConfig
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dictionary mapping characters to custom wait times to control text reveal cadence</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SerializableDictionary&lt;char, float&gt; RevealPauseConfig { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DynamicTools.DynamicUtilities.SerializableDictionary-2.html">SerializableDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealSpeed_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealSpeed*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_RevealSpeed" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.RevealSpeed">
+  RevealSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The speed at which characters are revealed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RevealSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_Text_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.Text*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_Text" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.Text">
+  Text
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reference to the TextMeshPro base object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TMP_Text Text { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TMP_Text</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_Awake_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.Awake*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_Awake" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.Awake">
+  Awake()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_CreateDynamicText_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.CreateDynamicText*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_CreateDynamicText" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.CreateDynamicText">
+  CreateDynamicText()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MenuItem(&quot;GameObject/UI (Canvas)/Dynamic Text UGUI&quot;)]
+protected static void CreateDynamicText()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_LateUpdate_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.LateUpdate*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_LateUpdate" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.LateUpdate">
+  LateUpdate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LateUpdate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_OnDisable_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.OnDisable*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_OnDisable" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.OnDisable">
+  OnDisable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clear references.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDisable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_OnEnable_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.OnEnable*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_OnEnable" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.OnEnable">
+  OnEnable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mark the Graphic and the canvas as having been changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEnable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_DynamicTextUGUI_OnValidate_" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.OnValidate*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_DynamicTextUGUI_OnValidate" data-uid="DynamicTools.DynamicTextFX.DynamicTextUGUI.OnValidate">
+  OnValidate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnValidate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

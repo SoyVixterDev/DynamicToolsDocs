@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DynamicTextEditor | Dynamic Tools Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DynamicTextEditor | Dynamic Tools Docs ">
+      
+      
+      <link rel="icon" href="../content/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../content/images/logo.svg" alt="DynamicTools">
+            DynamicTools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor">
+
+
+
+  <h1 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor" class="text-break">
+Class DynamicTextEditor  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DynamicTools.html">DynamicTools</a>.<a class="xref" href="DynamicTools.DynamicTextFX.html">DynamicTextFX</a>.<a class="xref" href="DynamicTools.DynamicTextFX.Editor.html">Editor</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DynamicTools.DynamicTextFX.Editor.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CustomEditor(typeof(DynamicText), true)]
+[CanEditMultipleObjects]
+public class DynamicTextEditor : TMP_EditorPanelUI</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">ScriptableObject</span></div>
+      <div><span class="xref">Editor</span></div>
+      <div><span class="xref">TMP_BaseEditorPanel</span></div>
+      <div><span class="xref">TMP_EditorPanelUI</span></div>
+      <div><span class="xref">DynamicTextEditor</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">TMP_EditorPanelUI.DrawExtraSettings()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_EditorPanelUI.DrawRaycastTarget()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_EditorPanelUI.DrawMaskable()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_EditorPanelUI.IsMixSelectionTypes()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_EditorPanelUI.OnUndoRedo()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.k_ExtraSettingsLabel</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.k_UiStateLabel</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_TextStyleIndexLookup</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.s_EventId</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.selAlignGridA</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.selAlignGridB</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_TextProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_IsRightToLeftProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_RtlText</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontAssetProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontSharedMaterialProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_MaterialPresets</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_MaterialPresetNames</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_MaterialPresetIndexLookup</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_MaterialPresetSelectionIndex</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_IsPresetListDirty</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_Styles</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_StyleNames</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_StyleSelectionIndex</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontStyleProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontColorProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_EnableVertexGradientProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontColorGradientProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontColorGradientPresetProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_OverrideHtmlColorProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontSizeProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontSizeBaseProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_AutoSizingProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontSizeMinProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontSizeMaxProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_LineSpacingMaxProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_CharWidthMaxAdjProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_CharacterSpacingProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_WordSpacingProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_LineSpacingProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_ParagraphSpacingProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_TextAlignmentProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_HorizontalAlignmentProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_VerticalAlignmentProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_HorizontalMappingProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_VerticalMappingProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_UvLineOffsetProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_TextWrappingModeProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_WordWrappingRatiosProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_TextOverflowModeProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_PageToDisplayProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_LinkedTextComponentProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_ParentLinkedTextComponentProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_FontFeaturesActiveProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_IsRichTextProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_HasFontAssetChangedProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_EnableExtraPaddingProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_CheckPaddingRequiredProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_EnableEscapeCharacterParsingProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_UseMaxVisibleDescenderProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_GeometrySortingOrderProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_IsTextObjectScaleStaticProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_EmojiFallbackSupportProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_SpriteAssetProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_StyleSheetAssetProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_TextStyleHashCodeProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_MarginProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_ColorModeProp</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_HavePropertiesChanged</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_TextComponent</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_PreviousLinkedTextComponent</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_RectTransform</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_TargetMaterial</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_RectCorners</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.m_HandlePoints</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.OnDisable()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.OnSceneGUI()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawTextInput()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawMainSettings()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawMargins()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawGeometrySorting()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawIsTextObjectScaleStatic()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawRichText()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawParsing()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawEmojiFallbackSupport()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawSpriteAsset()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawStyleSheet()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawTextureMapping()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawFontFeatures()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawPadding()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.GetMaterialPresets()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.GetStyleNames()</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawMarginProperty(SerializedProperty, GUIContent)</span>
+    </div>
+    <div>
+      <span class="xref">TMP_BaseEditorPanel.DrawPropertySlider(GUIContent, SerializedProperty)</span>
+    </div>
+    <div>
+      <span class="xref">Editor.SaveChanges()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.DiscardChanges()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateEditorWithContext(Object[], Object, Type)</a>
+    </div>
+    <div>
+      <span class="xref">Editor.CreateEditorWithContext(Object[], Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateCachedEditorWithContext(Object, Object, Type, ref Editor)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateCachedEditorWithContext(Object[], Object, Type, ref Editor)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateCachedEditor(Object, Type, ref Editor)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateCachedEditor(Object[], Type, ref Editor)</a>
+    </div>
+    <div>
+      <span class="xref">Editor.CreateEditor(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateEditor(Object, Type)</a>
+    </div>
+    <div>
+      <span class="xref">Editor.CreateEditor(Object[])</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateEditor(Object[], Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Editor.DrawPropertiesExcluding(SerializedObject, params string[])</a>
+    </div>
+    <div>
+      <span class="xref">Editor.DrawDefaultInspector()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.Repaint()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.CreateInspectorGUI()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.RequiresConstantRepaint()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.DrawHeader()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.OnHeaderGUI()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.ShouldHideOpenButton()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.DrawFoldoutInspector(Object, ref Editor)</span>
+    </div>
+    <div>
+      <span class="xref">Editor.HasPreviewGUI()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.CreatePreview(VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">Editor.GetPreviewTitle()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Editor.RenderStaticPreview(string, Object[], int, int)</a>
+    </div>
+    <div>
+      <span class="xref">Editor.OnPreviewGUI(Rect, GUIStyle)</span>
+    </div>
+    <div>
+      <span class="xref">Editor.OnInteractivePreviewGUI(Rect, GUIStyle)</span>
+    </div>
+    <div>
+      <span class="xref">Editor.OnPreviewSettings()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.GetInfoString()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.DrawPreview(Rect)</span>
+    </div>
+    <div>
+      <span class="xref">Editor.ReloadPreviewInstances()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.UseDefaultMargins()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.MoveNextTarget()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.ResetTarget()</span>
+    </div>
+    <div>
+      <span class="xref">Editor.hasUnsavedChanges</span>
+    </div>
+    <div>
+      <span class="xref">Editor.saveChangesMessage</span>
+    </div>
+    <div>
+      <span class="xref">Editor.target</span>
+    </div>
+    <div>
+      <span class="xref">Editor.targets</span>
+    </div>
+    <div>
+      <span class="xref">Editor.serializedObject</span>
+    </div>
+    <div>
+      <span class="xref">Editor.finishedDefaultHeaderGUI</span>
+    </div>
+    <div>
+      <span class="xref">ScriptableObject.SetDirty()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ScriptableObject.CreateInstance(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">ScriptableObject.CreateInstance(Type)</a>
+    </div>
+    <div>
+      <span class="xref">ScriptableObject.CreateInstance&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetEntityId()</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetHashCode()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T, Transform, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, Vector3, Quaternion, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">Object.InstantiateAsync&lt;T&gt;(T, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">Object.InstantiateAsync&lt;T&gt;(T, Vector3, Quaternion, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Vector3, Quaternion, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Scene)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, InstantiateParameters)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, InstantiateParameters)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate(Object, Transform, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate&lt;T&gt;(T, Transform, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.Destroy(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Destroy(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.DestroyImmediate(Object, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyImmediate(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsInactive, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DontDestroyOnLoad(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.DestroyObject(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyObject(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsByType&lt;T&gt;(FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.FindObjectsOfType&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsByType&lt;T&gt;(FindObjectsInactive, FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.FindObjectOfType&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindFirstObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindAnyObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindFirstObjectByType&lt;T&gt;(FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindAnyObjectByType&lt;T&gt;(FindObjectsInactive)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <span class="xref">Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">Object.name</span>
+    </div>
+    <div>
+      <span class="xref">Object.hideFlags</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_">Utilities.IsGenericList(object)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_dynamicText" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.dynamicText">
+  dynamicText
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IDynamicText dynamicText</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DynamicTools.DynamicTextFX.IDynamicText.html">IDynamicText</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_m_ColorPresets" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.m_ColorPresets">
+  m_ColorPresets
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_ColorPresets</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_m_RevealAnimation" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.m_RevealAnimation">
+  m_RevealAnimation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_RevealAnimation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_m_RevealAnimationSpeed" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.m_RevealAnimationSpeed">
+  m_RevealAnimationSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_RevealAnimationSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_m_RevealAnimationStrength" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.m_RevealAnimationStrength">
+  m_RevealAnimationStrength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_RevealAnimationStrength</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_m_RevealMode" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.m_RevealMode">
+  m_RevealMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_RevealMode</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_m_RevealPauseConfig" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.m_RevealPauseConfig">
+  m_RevealPauseConfig
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_RevealPauseConfig</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_m_RevealSpeed" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.m_RevealSpeed">
+  m_RevealSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_RevealSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_DrawDynamicSettings_" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.DrawDynamicSettings*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_DrawDynamicSettings" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.DrawDynamicSettings">
+  DrawDynamicSettings()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DrawDynamicSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_OnEnable_" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.OnEnable*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_OnEnable" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.OnEnable">
+  OnEnable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEnable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_OnInspectorGUI_" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.OnInspectorGUI*"></a>
+
+  <h3 id="DynamicTools_DynamicTextFX_Editor_DynamicTextEditor_OnInspectorGUI" data-uid="DynamicTools.DynamicTextFX.Editor.DynamicTextEditor.OnInspectorGUI">
+  OnInspectorGUI()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implement this function to make a custom inspector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnInspectorGUI()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

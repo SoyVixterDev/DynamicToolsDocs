@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicConversations.Extras
+  commentId: N:DynamicTools.DynamicConversations.Extras
+  id: Extras
+  parent: DynamicTools.DynamicConversations
+  children:
+  - DynamicTools.DynamicConversations.Extras.CSVParser
+  - DynamicTools.DynamicConversations.Extras.Editor
+  - DynamicTools.DynamicConversations.Extras.ExportField
+  - DynamicTools.DynamicConversations.Extras.InvalidStringDataException
+  - DynamicTools.DynamicConversations.Extras.ListToPopupAttribute
+  - DynamicTools.DynamicConversations.Extras.Utilities
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicConversations.Extras
+  nameWithType: DynamicTools.DynamicConversations.Extras
+  fullName: DynamicTools.DynamicConversations.Extras
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+references:
+- uid: DynamicTools.DynamicConversations.Extras.Editor
+  commentId: N:DynamicTools.DynamicConversations.Extras.Editor
+  name: DynamicTools.DynamicConversations.Extras.Editor
+  nameWithType: DynamicTools.DynamicConversations.Extras.Editor
+  fullName: DynamicTools.DynamicConversations.Extras.Editor
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras.Editor
+    name: Editor
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras.Editor
+    name: Editor
+- uid: DynamicTools.DynamicConversations.Extras.CSVParser
+  commentId: T:DynamicTools.DynamicConversations.Extras.CSVParser
+  href: DynamicTools.DynamicConversations.Extras.CSVParser.html
+  name: CSVParser
+  nameWithType: CSVParser
+  fullName: DynamicTools.DynamicConversations.Extras.CSVParser
+- uid: DynamicTools.DynamicConversations.Extras.ExportField
+  commentId: T:DynamicTools.DynamicConversations.Extras.ExportField
+  parent: DynamicTools.DynamicConversations.Extras
+  href: DynamicTools.DynamicConversations.Extras.ExportField.html
+  name: ExportField
+  nameWithType: ExportField
+  fullName: DynamicTools.DynamicConversations.Extras.ExportField
+- uid: DynamicTools.DynamicConversations.Extras.InvalidStringDataException
+  commentId: T:DynamicTools.DynamicConversations.Extras.InvalidStringDataException
+  href: DynamicTools.DynamicConversations.Extras.InvalidStringDataException.html
+  name: InvalidStringDataException
+  nameWithType: InvalidStringDataException
+  fullName: DynamicTools.DynamicConversations.Extras.InvalidStringDataException
+- uid: DynamicTools.DynamicConversations.Extras.ListToPopupAttribute
+  commentId: T:DynamicTools.DynamicConversations.Extras.ListToPopupAttribute
+  parent: DynamicTools.DynamicConversations.Extras
+  href: DynamicTools.DynamicConversations.Extras.ListToPopupAttribute.html
+  name: ListToPopupAttribute
+  nameWithType: ListToPopupAttribute
+  fullName: DynamicTools.DynamicConversations.Extras.ListToPopupAttribute
+- uid: DynamicTools.DynamicConversations.Extras.Utilities
+  commentId: T:DynamicTools.DynamicConversations.Extras.Utilities
+  parent: DynamicTools.DynamicConversations.Extras
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html
+  name: Utilities
+  nameWithType: Utilities
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities
+- uid: DynamicTools.DynamicConversations.Extras
+  commentId: N:DynamicTools.DynamicConversations.Extras
+  name: DynamicTools.DynamicConversations.Extras
+  nameWithType: DynamicTools.DynamicConversations.Extras
+  fullName: DynamicTools.DynamicConversations.Extras
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras

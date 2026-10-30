@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicTextFX.Syntax
+  commentId: N:DynamicTools.DynamicTextFX.Syntax
+  id: Syntax
+  parent: DynamicTools.DynamicTextFX
+  children:
+  - DynamicTools.DynamicTextFX.Syntax.AST
+  - DynamicTools.DynamicTextFX.Syntax.ArgumentNode
+  - DynamicTools.DynamicTextFX.Syntax.CloseTagNode
+  - DynamicTools.DynamicTextFX.Syntax.EvalNode
+  - DynamicTools.DynamicTextFX.Syntax.Lexer
+  - DynamicTools.DynamicTextFX.Syntax.Node
+  - DynamicTools.DynamicTextFX.Syntax.OpenTagNode
+  - DynamicTools.DynamicTextFX.Syntax.Parser
+  - DynamicTools.DynamicTextFX.Syntax.TextNode
+  - DynamicTools.DynamicTextFX.Syntax.Token
+  - DynamicTools.DynamicTextFX.Syntax.TokenStream
+  - DynamicTools.DynamicTextFX.Syntax.TokenType
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicTextFX.Syntax
+  nameWithType: DynamicTools.DynamicTextFX.Syntax
+  fullName: DynamicTools.DynamicTextFX.Syntax
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicTextFX.Syntax
+references:
+- uid: DynamicTools.DynamicTextFX.Syntax.AST
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.AST
+  parent: DynamicTools.DynamicTextFX.Syntax
+  href: DynamicTools.DynamicTextFX.Syntax.AST.html
+  name: AST
+  nameWithType: AST
+  fullName: DynamicTools.DynamicTextFX.Syntax.AST
+- uid: DynamicTools.DynamicTextFX.Syntax.ArgumentNode
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.ArgumentNode
+  href: DynamicTools.DynamicTextFX.Syntax.ArgumentNode.html
+  name: ArgumentNode
+  nameWithType: ArgumentNode
+  fullName: DynamicTools.DynamicTextFX.Syntax.ArgumentNode
+- uid: DynamicTools.DynamicTextFX.Syntax.CloseTagNode
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.CloseTagNode
+  href: DynamicTools.DynamicTextFX.Syntax.CloseTagNode.html
+  name: CloseTagNode
+  nameWithType: CloseTagNode
+  fullName: DynamicTools.DynamicTextFX.Syntax.CloseTagNode
+- uid: DynamicTools.DynamicTextFX.Syntax.EvalNode
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.EvalNode
+  href: DynamicTools.DynamicTextFX.Syntax.EvalNode.html
+  name: EvalNode
+  nameWithType: EvalNode
+  fullName: DynamicTools.DynamicTextFX.Syntax.EvalNode
+- uid: DynamicTools.DynamicTextFX.Syntax.Lexer
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.Lexer
+  parent: DynamicTools.DynamicTextFX.Syntax
+  href: DynamicTools.DynamicTextFX.Syntax.Lexer.html
+  name: Lexer
+  nameWithType: Lexer
+  fullName: DynamicTools.DynamicTextFX.Syntax.Lexer
+- uid: DynamicTools.DynamicTextFX.Syntax.Node
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.Node
+  parent: DynamicTools.DynamicTextFX.Syntax
+  href: DynamicTools.DynamicTextFX.Syntax.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: DynamicTools.DynamicTextFX.Syntax.Node
+- uid: DynamicTools.DynamicTextFX.Syntax.OpenTagNode
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.OpenTagNode
+  href: DynamicTools.DynamicTextFX.Syntax.OpenTagNode.html
+  name: OpenTagNode
+  nameWithType: OpenTagNode
+  fullName: DynamicTools.DynamicTextFX.Syntax.OpenTagNode
+- uid: DynamicTools.DynamicTextFX.Syntax.Parser
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.Parser
+  href: DynamicTools.DynamicTextFX.Syntax.Parser.html
+  name: Parser
+  nameWithType: Parser
+  fullName: DynamicTools.DynamicTextFX.Syntax.Parser
+- uid: DynamicTools.DynamicTextFX.Syntax.TextNode
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.TextNode
+  href: DynamicTools.DynamicTextFX.Syntax.TextNode.html
+  name: TextNode
+  nameWithType: TextNode
+  fullName: DynamicTools.DynamicTextFX.Syntax.TextNode
+- uid: DynamicTools.DynamicTextFX.Syntax.Token
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.Token
+  parent: DynamicTools.DynamicTextFX.Syntax
+  href: DynamicTools.DynamicTextFX.Syntax.Token.html
+  name: Token
+  nameWithType: Token
+  fullName: DynamicTools.DynamicTextFX.Syntax.Token
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenStream
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.TokenStream
+  parent: DynamicTools.DynamicTextFX.Syntax
+  href: DynamicTools.DynamicTextFX.Syntax.TokenStream.html
+  name: TokenStream
+  nameWithType: TokenStream
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenStream
+- uid: DynamicTools.DynamicTextFX.Syntax.TokenType
+  commentId: T:DynamicTools.DynamicTextFX.Syntax.TokenType
+  parent: DynamicTools.DynamicTextFX.Syntax
+  href: DynamicTools.DynamicTextFX.Syntax.TokenType.html
+  name: TokenType
+  nameWithType: TokenType
+  fullName: DynamicTools.DynamicTextFX.Syntax.TokenType
+- uid: DynamicTools.DynamicTextFX.Syntax
+  commentId: N:DynamicTools.DynamicTextFX.Syntax
+  name: DynamicTools.DynamicTextFX.Syntax
+  nameWithType: DynamicTools.DynamicTextFX.Syntax
+  fullName: DynamicTools.DynamicTextFX.Syntax
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Syntax
+    name: Syntax
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  - name: .
+  - uid: DynamicTools.DynamicTextFX.Syntax
+    name: Syntax

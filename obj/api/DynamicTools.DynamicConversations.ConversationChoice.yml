@@ -1,0 +1,689 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicConversations.ConversationChoice
+  commentId: T:DynamicTools.DynamicConversations.ConversationChoice
+  id: ConversationChoice
+  parent: DynamicTools.DynamicConversations
+  children:
+  - DynamicTools.DynamicConversations.ConversationChoice.#ctor(System.String,DynamicTools.DynamicConversations.Node)
+  - DynamicTools.DynamicConversations.ConversationChoice.Name
+  - DynamicTools.DynamicConversations.ConversationChoice.OptionText
+  - DynamicTools.DynamicConversations.ConversationChoice.ToString
+  - DynamicTools.DynamicConversations.ConversationChoice.ToString(System.Collections.Generic.List{System.String})
+  - DynamicTools.DynamicConversations.ConversationChoice.child
+  langs:
+  - csharp
+  - vb
+  name: ConversationChoice
+  nameWithType: ConversationChoice
+  fullName: DynamicTools.DynamicConversations.ConversationChoice
+  type: Class
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ConversationChoice
+    content.vb: >-
+      <Serializable>
+
+      Public Class ConversationChoice
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: DynamicTools.DynamicConversations.ConversationChoice.Name
+  commentId: F:DynamicTools.DynamicConversations.ConversationChoice.Name
+  id: Name
+  parent: DynamicTools.DynamicConversations.ConversationChoice
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ConversationChoice.Name
+  fullName: DynamicTools.DynamicConversations.ConversationChoice.Name
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public string Name
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      Public Name As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: DynamicTools.DynamicConversations.ConversationChoice.child
+  commentId: F:DynamicTools.DynamicConversations.ConversationChoice.child
+  id: child
+  parent: DynamicTools.DynamicConversations.ConversationChoice
+  langs:
+  - csharp
+  - vb
+  name: child
+  nameWithType: ConversationChoice.child
+  fullName: DynamicTools.DynamicConversations.ConversationChoice.child
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public Node child
+    return:
+      type: DynamicTools.DynamicConversations.Node
+    content.vb: >-
+      <HideInInspector>
+
+      Public child As Node
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: DynamicTools.DynamicConversations.ConversationChoice.OptionText
+  commentId: F:DynamicTools.DynamicConversations.ConversationChoice.OptionText
+  id: OptionText
+  parent: DynamicTools.DynamicConversations.ConversationChoice
+  langs:
+  - csharp
+  - vb
+  name: OptionText
+  nameWithType: ConversationChoice.OptionText
+  fullName: DynamicTools.DynamicConversations.ConversationChoice.OptionText
+  type: Field
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  syntax:
+    content: >-
+      [Tooltip("The text to be displayed in the player option button")]
+
+      public string OptionText
+    return:
+      type: System.String
+    content.vb: >-
+      <Tooltip("The text to be displayed in the player option button")>
+
+      Public OptionText As String
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The text to be displayed in the player option button
+- uid: DynamicTools.DynamicConversations.ConversationChoice.#ctor(System.String,DynamicTools.DynamicConversations.Node)
+  commentId: M:DynamicTools.DynamicConversations.ConversationChoice.#ctor(System.String,DynamicTools.DynamicConversations.Node)
+  id: '#ctor(System.String,DynamicTools.DynamicConversations.Node)'
+  parent: DynamicTools.DynamicConversations.ConversationChoice
+  langs:
+  - csharp
+  - vb
+  name: ConversationChoice(string, Node)
+  nameWithType: ConversationChoice.ConversationChoice(string, Node)
+  fullName: DynamicTools.DynamicConversations.ConversationChoice.ConversationChoice(string, DynamicTools.DynamicConversations.Node)
+  type: Constructor
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  syntax:
+    content: public ConversationChoice(string OptionText, Node child)
+    parameters:
+    - id: OptionText
+      type: System.String
+    - id: child
+      type: DynamicTools.DynamicConversations.Node
+    content.vb: Public Sub New(OptionText As String, child As Node)
+  overload: DynamicTools.DynamicConversations.ConversationChoice.#ctor*
+  nameWithType.vb: ConversationChoice.New(String, Node)
+  fullName.vb: DynamicTools.DynamicConversations.ConversationChoice.New(String, DynamicTools.DynamicConversations.Node)
+  name.vb: New(String, Node)
+- uid: DynamicTools.DynamicConversations.ConversationChoice.ToString
+  commentId: M:DynamicTools.DynamicConversations.ConversationChoice.ToString
+  id: ToString
+  parent: DynamicTools.DynamicConversations.ConversationChoice
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ConversationChoice.ToString()
+  fullName: DynamicTools.DynamicConversations.ConversationChoice.ToString()
+  type: Method
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: DynamicTools.DynamicConversations.ConversationChoice.ToString*
+- uid: DynamicTools.DynamicConversations.ConversationChoice.ToString(System.Collections.Generic.List{System.String})
+  commentId: M:DynamicTools.DynamicConversations.ConversationChoice.ToString(System.Collections.Generic.List{System.String})
+  id: ToString(System.Collections.Generic.List{System.String})
+  parent: DynamicTools.DynamicConversations.ConversationChoice
+  langs:
+  - csharp
+  - vb
+  name: ToString(List<string>)
+  nameWithType: ConversationChoice.ToString(List<string>)
+  fullName: DynamicTools.DynamicConversations.ConversationChoice.ToString(System.Collections.Generic.List<string>)
+  type: Method
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+  namespace: DynamicTools.DynamicConversations
+  syntax:
+    content: public string ToString(List<string> nodeGUIDs)
+    parameters:
+    - id: nodeGUIDs
+      type: System.Collections.Generic.List{System.String}
+    return:
+      type: System.String
+    content.vb: Public Function ToString(nodeGUIDs As List(Of String)) As String
+  overload: DynamicTools.DynamicConversations.ConversationChoice.ToString*
+  nameWithType.vb: ConversationChoice.ToString(List(Of String))
+  fullName.vb: DynamicTools.DynamicConversations.ConversationChoice.ToString(System.Collections.Generic.List(Of String))
+  name.vb: ToString(List(Of String))
+references:
+- uid: DynamicTools.DynamicConversations
+  commentId: N:DynamicTools.DynamicConversations
+  name: DynamicTools.DynamicConversations
+  nameWithType: DynamicTools.DynamicConversations
+  fullName: DynamicTools.DynamicConversations
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  parent: DynamicTools.DynamicConversations.Extras.Utilities
+  definition: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  commentId: M:DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+  isExternal: true
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  name: IsGenericList(object)
+  nameWithType: Utilities.IsGenericList(object)
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(object)
+  nameWithType.vb: Utilities.IsGenericList(Object)
+  fullName.vb: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(Object)
+  name.vb: IsGenericList(Object)
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Extras.Utilities.IsGenericList(System.Object)
+    name: IsGenericList
+    href: DynamicTools.DynamicConversations.Extras.Utilities.html#DynamicTools_DynamicConversations_Extras_Utilities_IsGenericList_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DynamicTools.DynamicConversations.Extras.Utilities
+  commentId: T:DynamicTools.DynamicConversations.Extras.Utilities
+  parent: DynamicTools.DynamicConversations.Extras
+  href: DynamicTools.DynamicConversations.Extras.Utilities.html
+  name: Utilities
+  nameWithType: Utilities
+  fullName: DynamicTools.DynamicConversations.Extras.Utilities
+- uid: DynamicTools.DynamicConversations.Extras
+  commentId: N:DynamicTools.DynamicConversations.Extras
+  name: DynamicTools.DynamicConversations.Extras
+  nameWithType: DynamicTools.DynamicConversations.Extras
+  fullName: DynamicTools.DynamicConversations.Extras
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DynamicTools.DynamicConversations.Node
+  commentId: T:DynamicTools.DynamicConversations.Node
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: DynamicTools.DynamicConversations.Node
+- uid: DynamicTools.DynamicConversations.ConversationChoice.#ctor*
+  commentId: Overload:DynamicTools.DynamicConversations.ConversationChoice.#ctor
+  href: DynamicTools.DynamicConversations.ConversationChoice.html#DynamicTools_DynamicConversations_ConversationChoice__ctor_System_String_DynamicTools_DynamicConversations_Node_
+  name: ConversationChoice
+  nameWithType: ConversationChoice.ConversationChoice
+  fullName: DynamicTools.DynamicConversations.ConversationChoice.ConversationChoice
+  nameWithType.vb: ConversationChoice.New
+  fullName.vb: DynamicTools.DynamicConversations.ConversationChoice.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: DynamicTools.DynamicConversations.ConversationChoice.ToString*
+  commentId: Overload:DynamicTools.DynamicConversations.ConversationChoice.ToString
+  href: DynamicTools.DynamicConversations.ConversationChoice.html#DynamicTools_DynamicConversations_ConversationChoice_ToString
+  name: ToString
+  nameWithType: ConversationChoice.ToString
+  fullName: DynamicTools.DynamicConversations.ConversationChoice.ToString
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

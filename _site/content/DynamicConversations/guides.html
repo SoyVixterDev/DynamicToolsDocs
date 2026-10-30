@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Dynamic Conversations Usage Guide | Dynamic Tools Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Dynamic Conversations Usage Guide | Dynamic Tools Docs ">
+      
+      
+      <link rel="icon" href="../../content/images/favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../content/images/logo.svg" alt="DynamicTools">
+            DynamicTools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="dynamic-conversations-usage-guide">Dynamic Conversations Usage Guide</h1>
+
+<p>This is a quick start guide for the Dynamic Converations Asset, which goes over the basic functionality and how to start creating your own dialogues.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>After installing the package from the package manager, you can start setting up your interface by creating a Dynamic Text object for the line display, an Image for the portraits, a button prefab for the player choices, an audio source to play line audio, etc.</p>
+<p><img src="../images/GettingStarted.png" alt="Object Organization"></p>
+<p>After adding all the necessary components into the Scene and assigning them into the Conversation Runner Controller you can start creating the Scriptable Objects for your conversations.</p>
+<p><img src="../images/ConversationRunnerInspector.png" alt="Conversation Runner Inspector"></p>
+<h2 id="create-speaker-profile">Create Speaker Profile</h2>
+<p>Right click into your project folder, go into the create, Dynamic Tools, Conversations and start by creating a Speaker Profile object.</p>
+<p><img src="../images/CreateSpeakerProfile.png" alt="Create Speaker Profile"></p>
+<p>In the speaker profile object, you can set up a configuration for how to display the text such as typing speed, character name, font, dialogue portraits, sound effects and more.</p>
+<p><img src="../images/SpeakerProfileInspector.png" alt="Speaker Profile Inspector"></p>
+<h2 id="create-sound-effect-asset">Create Sound Effect Asset</h2>
+<p>Creating sound effect assets is also pretty simple, in the same menu select sound effect, and in the inspector add custom audio files and set up the configuration as needed. You can also preview the result by pressing the play preview button.</p>
+<p><img src="../images/SoundEffectAssetInspector.png" alt="Sound Effect Asset Inspector"></p>
+<h2 id="create-a-conversation">Create a Conversation</h2>
+<p>Then you can create and open the Conversation Tree Editor by double clicking a conversation tree asset. In this window you can start adding lines, choices, wait and event nodes by right clicking and selecting the node, and creating the connections between the nodes is as easy as dragging the output port of a node into the input node of another.</p>
+<p><img src="../images/ConversationView.png" alt="Conversation View"></p>
+<h2 id="create-a-line-node">Create a Line Node</h2>
+<p>In here you can start writing lines for your own conversation, if you want to have an interesting dynamic look you can start using the rich text implementation to add effects to the text or change certain properties of sections of the line by following this simple syntax: &lt;EffectTag:Value1,Value2...&gt;Your Text&lt;/&gt; or &lt;EffectTag:Property1=Value1,Property2=Value2&gt;</p>
+<p><img src="../images/LineNodeInspector.png" alt="LineNode Inspector"></p>
+<p><img src="../images/EffectDisplay.png" alt="Effect Display"></p>
+<p>All the included effects and their tags can be found further down in the Package Contents section.
+The lines also provide a drop-down menu to select a portrait when it is available from the Current Speaker Profile.</p>
+<p><img src="../images/PortraitSelection.png" alt="Portrait Selection"></p>
+<h2 id="create-player-choices">Create Player Choices</h2>
+<p>You can use choice nodes to create branching in the conversation. Each choice option results in a different outcome.</p>
+<p><img src="../images/ChoiceNodeInspector.png" alt="ChoiceNode Inspector"></p>
+<p><img src="../images/ChoiceDisplay.png" alt="Choice Display"></p>
+<h2 id="create-events">Create Events</h2>
+<p>Additionally, you could add event nodes to call scene functions during a conversation. This can be done by creating an Event Channel Object of the desired type and then assign it to the respective node.</p>
+<p><img src="../images/EventNodeInspector.png" alt="EventNode Inspector"></p>
+<p>To have a function be called you will canadd the event listener of the correct type into your scene and assign both the channel object and the events to be called. Then when the conversation reaches the specified event node the channel will fire, and the functions set into the event listener will be called.</p>
+<p><img src="../images/EventListener.png" alt="Event Listener Inspector"></p>
+<p>You can also directly subscribe to the event channel fromyour custom scripts!</p>
+<h2 id="use-the-localization-system">Use the Localization System</h2>
+<p>At the top of the editor window, you can find a language selector. This selector allows you to alternate between different versions of the conversation tree, depending on which language is set during runtime the asset will select the specified version.</p>
+<p><img src="../images/LocalizationToolbarDisplay.png" alt="Localization Tool Bar"></p>
+<p>More information about the Localization system can be found in the package contents section.
+Use Runtime Text Replacements
+You can add custom data to be replaced in runtime by using tags encapsulated by brackets like this: [CustomTagName]. You can set the values and their respective tags by using the ConversationReplaceManager functions. For more information check out the Package Contents section.</p>
+<h2 id="start-using-the-asset">Start Using the Asset!</h2>
+<p>That mostly covers the entire process of creating a dialogue with events and player choices, what's left would be to create your own script to set up the inputs to call the NextLine, FinishLine, ToggleFastForward functions found in the conversation runner script.
+To further expand on the basic setup, you can subscribe your own functions into the &quot;OnStartConversation&quot; and &quot;OnFinishConversation&quot; events to handle stuff like displaying and hiding the Dialogue UI or enabling and disabling player movement, etc.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

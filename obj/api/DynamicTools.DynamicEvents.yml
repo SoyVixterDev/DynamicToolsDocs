@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicEvents
+  commentId: N:DynamicTools.DynamicEvents
+  id: DynamicEvents
+  parent: DynamicTools
+  children:
+  - DynamicTools.DynamicEvents.DynamicEventChannel
+  - DynamicTools.DynamicEvents.DynamicEventChannelBool
+  - DynamicTools.DynamicEvents.DynamicEventChannelFloat
+  - DynamicTools.DynamicEvents.DynamicEventChannelInt
+  - DynamicTools.DynamicEvents.DynamicEventChannelString
+  - DynamicTools.DynamicEvents.DynamicEventChannelVector2
+  - DynamicTools.DynamicEvents.DynamicEventChannelVector3
+  - DynamicTools.DynamicEvents.DynamicEventChannelVoid
+  - DynamicTools.DynamicEvents.DynamicEventListenerBool
+  - DynamicTools.DynamicEvents.DynamicEventListenerFloat
+  - DynamicTools.DynamicEvents.DynamicEventListenerInteger
+  - DynamicTools.DynamicEvents.DynamicEventListenerString
+  - DynamicTools.DynamicEvents.DynamicEventListenerVector2
+  - DynamicTools.DynamicEvents.DynamicEventListenerVector3
+  - DynamicTools.DynamicEvents.DynamicEventListenerVoid
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicEvents
+  nameWithType: DynamicTools.DynamicEvents
+  fullName: DynamicTools.DynamicEvents
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicEvents
+references:
+- uid: DynamicTools.DynamicEvents.DynamicEventChannel
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventChannel
+  parent: DynamicTools.DynamicEvents
+  href: DynamicTools.DynamicEvents.DynamicEventChannel.html
+  name: DynamicEventChannel
+  nameWithType: DynamicEventChannel
+  fullName: DynamicTools.DynamicEvents.DynamicEventChannel
+- uid: DynamicTools.DynamicEvents.DynamicEventChannelBool
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventChannelBool
+  parent: DynamicTools.DynamicEvents
+  href: DynamicTools.DynamicEvents.DynamicEventChannelBool.html
+  name: DynamicEventChannelBool
+  nameWithType: DynamicEventChannelBool
+  fullName: DynamicTools.DynamicEvents.DynamicEventChannelBool
+- uid: DynamicTools.DynamicEvents.DynamicEventChannelFloat
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventChannelFloat
+  parent: DynamicTools.DynamicEvents
+  href: DynamicTools.DynamicEvents.DynamicEventChannelFloat.html
+  name: DynamicEventChannelFloat
+  nameWithType: DynamicEventChannelFloat
+  fullName: DynamicTools.DynamicEvents.DynamicEventChannelFloat
+- uid: DynamicTools.DynamicEvents.DynamicEventChannelInt
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventChannelInt
+  parent: DynamicTools.DynamicEvents
+  href: DynamicTools.DynamicEvents.DynamicEventChannelInt.html
+  name: DynamicEventChannelInt
+  nameWithType: DynamicEventChannelInt
+  fullName: DynamicTools.DynamicEvents.DynamicEventChannelInt
+- uid: DynamicTools.DynamicEvents.DynamicEventChannelString
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventChannelString
+  parent: DynamicTools.DynamicEvents
+  href: DynamicTools.DynamicEvents.DynamicEventChannelString.html
+  name: DynamicEventChannelString
+  nameWithType: DynamicEventChannelString
+  fullName: DynamicTools.DynamicEvents.DynamicEventChannelString
+- uid: DynamicTools.DynamicEvents.DynamicEventChannelVector2
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventChannelVector2
+  parent: DynamicTools.DynamicEvents
+  href: DynamicTools.DynamicEvents.DynamicEventChannelVector2.html
+  name: DynamicEventChannelVector2
+  nameWithType: DynamicEventChannelVector2
+  fullName: DynamicTools.DynamicEvents.DynamicEventChannelVector2
+- uid: DynamicTools.DynamicEvents.DynamicEventChannelVector3
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventChannelVector3
+  parent: DynamicTools.DynamicEvents
+  href: DynamicTools.DynamicEvents.DynamicEventChannelVector3.html
+  name: DynamicEventChannelVector3
+  nameWithType: DynamicEventChannelVector3
+  fullName: DynamicTools.DynamicEvents.DynamicEventChannelVector3
+- uid: DynamicTools.DynamicEvents.DynamicEventChannelVoid
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventChannelVoid
+  parent: DynamicTools.DynamicEvents
+  href: DynamicTools.DynamicEvents.DynamicEventChannelVoid.html
+  name: DynamicEventChannelVoid
+  nameWithType: DynamicEventChannelVoid
+  fullName: DynamicTools.DynamicEvents.DynamicEventChannelVoid
+- uid: DynamicTools.DynamicEvents.DynamicEventListenerBool
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventListenerBool
+  href: DynamicTools.DynamicEvents.DynamicEventListenerBool.html
+  name: DynamicEventListenerBool
+  nameWithType: DynamicEventListenerBool
+  fullName: DynamicTools.DynamicEvents.DynamicEventListenerBool
+- uid: DynamicTools.DynamicEvents.DynamicEventListenerFloat
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventListenerFloat
+  href: DynamicTools.DynamicEvents.DynamicEventListenerFloat.html
+  name: DynamicEventListenerFloat
+  nameWithType: DynamicEventListenerFloat
+  fullName: DynamicTools.DynamicEvents.DynamicEventListenerFloat
+- uid: DynamicTools.DynamicEvents.DynamicEventListenerInteger
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventListenerInteger
+  href: DynamicTools.DynamicEvents.DynamicEventListenerInteger.html
+  name: DynamicEventListenerInteger
+  nameWithType: DynamicEventListenerInteger
+  fullName: DynamicTools.DynamicEvents.DynamicEventListenerInteger
+- uid: DynamicTools.DynamicEvents.DynamicEventListenerString
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventListenerString
+  href: DynamicTools.DynamicEvents.DynamicEventListenerString.html
+  name: DynamicEventListenerString
+  nameWithType: DynamicEventListenerString
+  fullName: DynamicTools.DynamicEvents.DynamicEventListenerString
+- uid: DynamicTools.DynamicEvents.DynamicEventListenerVector2
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventListenerVector2
+  href: DynamicTools.DynamicEvents.DynamicEventListenerVector2.html
+  name: DynamicEventListenerVector2
+  nameWithType: DynamicEventListenerVector2
+  fullName: DynamicTools.DynamicEvents.DynamicEventListenerVector2
+- uid: DynamicTools.DynamicEvents.DynamicEventListenerVector3
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventListenerVector3
+  href: DynamicTools.DynamicEvents.DynamicEventListenerVector3.html
+  name: DynamicEventListenerVector3
+  nameWithType: DynamicEventListenerVector3
+  fullName: DynamicTools.DynamicEvents.DynamicEventListenerVector3
+- uid: DynamicTools.DynamicEvents.DynamicEventListenerVoid
+  commentId: T:DynamicTools.DynamicEvents.DynamicEventListenerVoid
+  href: DynamicTools.DynamicEvents.DynamicEventListenerVoid.html
+  name: DynamicEventListenerVoid
+  nameWithType: DynamicEventListenerVoid
+  fullName: DynamicTools.DynamicEvents.DynamicEventListenerVoid
+- uid: DynamicTools.DynamicEvents
+  commentId: N:DynamicTools.DynamicEvents
+  name: DynamicTools.DynamicEvents
+  nameWithType: DynamicTools.DynamicEvents
+  fullName: DynamicTools.DynamicEvents
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicEvents
+    name: DynamicEvents
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicEvents
+    name: DynamicEvents

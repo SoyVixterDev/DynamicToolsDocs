@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicConversations.Editor
+  commentId: N:DynamicTools.DynamicConversations.Editor
+  id: Editor
+  parent: DynamicTools.DynamicConversations
+  children:
+  - DynamicTools.DynamicConversations.Editor.ConversationEditorWindow
+  - DynamicTools.DynamicConversations.Editor.ConversationGraphView
+  - DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData
+  - DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor
+  - DynamicTools.DynamicConversations.Editor.Experimental
+  - DynamicTools.DynamicConversations.Editor.InspectorView
+  - DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData
+  - DynamicTools.DynamicConversations.Editor.LineNodeEditor
+  - DynamicTools.DynamicConversations.Editor.NodeView
+  - DynamicTools.DynamicConversations.Editor.SplitView
+  - DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicConversations.Editor
+  nameWithType: DynamicTools.DynamicConversations.Editor
+  fullName: DynamicTools.DynamicConversations.Editor
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicConversations.Editor
+references:
+- uid: DynamicTools.DynamicConversations.Editor.Experimental
+  commentId: N:DynamicTools.DynamicConversations.Editor.Experimental
+  name: DynamicTools.DynamicConversations.Editor.Experimental
+  nameWithType: DynamicTools.DynamicConversations.Editor.Experimental
+  fullName: DynamicTools.DynamicConversations.Editor.Experimental
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor
+    name: Editor
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor.Experimental
+    name: Experimental
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor
+    name: Editor
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor.Experimental
+    name: Experimental
+- uid: DynamicTools.DynamicConversations.Editor.ConversationEditorWindow
+  commentId: T:DynamicTools.DynamicConversations.Editor.ConversationEditorWindow
+  href: DynamicTools.DynamicConversations.Editor.ConversationEditorWindow.html
+  name: ConversationEditorWindow
+  nameWithType: ConversationEditorWindow
+  fullName: DynamicTools.DynamicConversations.Editor.ConversationEditorWindow
+- uid: DynamicTools.DynamicConversations.Editor.ConversationGraphView
+  commentId: T:DynamicTools.DynamicConversations.Editor.ConversationGraphView
+  parent: DynamicTools.DynamicConversations.Editor
+  href: DynamicTools.DynamicConversations.Editor.ConversationGraphView.html
+  name: ConversationGraphView
+  nameWithType: ConversationGraphView
+  fullName: DynamicTools.DynamicConversations.Editor.ConversationGraphView
+- uid: DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData
+  commentId: T:DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData
+  href: DynamicTools.DynamicConversations.Editor.ConversationGraphView.html
+  name: ConversationGraphView.UxmlSerializedData
+  nameWithType: ConversationGraphView.UxmlSerializedData
+  fullName: DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Editor.ConversationGraphView
+    name: ConversationGraphView
+    href: DynamicTools.DynamicConversations.Editor.ConversationGraphView.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData
+    name: UxmlSerializedData
+    href: DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData.html
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Editor.ConversationGraphView
+    name: ConversationGraphView
+    href: DynamicTools.DynamicConversations.Editor.ConversationGraphView.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData
+    name: UxmlSerializedData
+    href: DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData.html
+- uid: DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor
+  commentId: T:DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor
+  href: DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor.html
+  name: ConversationRunnerEditor
+  nameWithType: ConversationRunnerEditor
+  fullName: DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor
+- uid: DynamicTools.DynamicConversations.Editor.InspectorView
+  commentId: T:DynamicTools.DynamicConversations.Editor.InspectorView
+  href: DynamicTools.DynamicConversations.Editor.InspectorView.html
+  name: InspectorView
+  nameWithType: InspectorView
+  fullName: DynamicTools.DynamicConversations.Editor.InspectorView
+- uid: DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData
+  commentId: T:DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData
+  href: DynamicTools.DynamicConversations.Editor.InspectorView.html
+  name: InspectorView.UxmlSerializedData
+  nameWithType: InspectorView.UxmlSerializedData
+  fullName: DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Editor.InspectorView
+    name: InspectorView
+    href: DynamicTools.DynamicConversations.Editor.InspectorView.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData
+    name: UxmlSerializedData
+    href: DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData.html
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Editor.InspectorView
+    name: InspectorView
+    href: DynamicTools.DynamicConversations.Editor.InspectorView.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData
+    name: UxmlSerializedData
+    href: DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData.html
+- uid: DynamicTools.DynamicConversations.Editor.LineNodeEditor
+  commentId: T:DynamicTools.DynamicConversations.Editor.LineNodeEditor
+  href: DynamicTools.DynamicConversations.Editor.LineNodeEditor.html
+  name: LineNodeEditor
+  nameWithType: LineNodeEditor
+  fullName: DynamicTools.DynamicConversations.Editor.LineNodeEditor
+- uid: DynamicTools.DynamicConversations.Editor.NodeView
+  commentId: T:DynamicTools.DynamicConversations.Editor.NodeView
+  parent: DynamicTools.DynamicConversations.Editor
+  href: DynamicTools.DynamicConversations.Editor.NodeView.html
+  name: NodeView
+  nameWithType: NodeView
+  fullName: DynamicTools.DynamicConversations.Editor.NodeView
+- uid: DynamicTools.DynamicConversations.Editor.SplitView
+  commentId: T:DynamicTools.DynamicConversations.Editor.SplitView
+  href: DynamicTools.DynamicConversations.Editor.SplitView.html
+  name: SplitView
+  nameWithType: SplitView
+  fullName: DynamicTools.DynamicConversations.Editor.SplitView
+- uid: DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData
+  commentId: T:DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData
+  href: DynamicTools.DynamicConversations.Editor.SplitView.html
+  name: SplitView.UxmlSerializedData
+  nameWithType: SplitView.UxmlSerializedData
+  fullName: DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.Editor.SplitView
+    name: SplitView
+    href: DynamicTools.DynamicConversations.Editor.SplitView.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData
+    name: UxmlSerializedData
+    href: DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData.html
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.Editor.SplitView
+    name: SplitView
+    href: DynamicTools.DynamicConversations.Editor.SplitView.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData
+    name: UxmlSerializedData
+    href: DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData.html
+- uid: DynamicTools.DynamicConversations.Editor
+  commentId: N:DynamicTools.DynamicConversations.Editor
+  name: DynamicTools.DynamicConversations.Editor
+  nameWithType: DynamicTools.DynamicConversations.Editor
+  fullName: DynamicTools.DynamicConversations.Editor
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor
+    name: Editor
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor
+    name: Editor

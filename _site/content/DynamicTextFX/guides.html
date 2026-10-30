@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Dynamic TextFX Usage Guide | Dynamic Tools Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Dynamic TextFX Usage Guide | Dynamic Tools Docs ">
+      
+      
+      <link rel="icon" href="../../content/images/favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../content/images/logo.svg" alt="DynamicTools">
+            DynamicTools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="dynamic-textfx-usage-guide">Dynamic TextFX Usage Guide</h1>
+
+<p>This guide covers the basics of using Dynamic Text in your projects, as well as a reference for all existing text effects</p>
+<h2 id="dynamic-text-object">Dynamic Text Object</h2>
+<p>You can add a Dynamic Text Object using either UI (Canvas) &gt; DynamicTextUGUI or 3D Object &gt; DynamicText from the object menu.</p>
+<p><img src="../images/CreateDynamicTextUGUI.png" alt="Create DynamicTextUGUI">
+<img src="../images/CreateDynamicText.png" alt="Create DynamicText"></p>
+<p>You can also add them as components directly into an object in the scene.</p>
+<h2 id="dynamic-text-ugui-vs-dynamic-text">Dynamic Text UGUI vs Dynamic Text</h2>
+<p>Both objects are functionally the same, each extend from TextMeshProUGUI and TextMeshPro respectively, the only difference is that DynamicTextUGUI is meant to be used in UI Canvas, whie DynamicText can be used in 3D world space.</p>
+<h2 id="properties">Properties</h2>
+<p>In the inspector, you can edit all the basic text mesh pro properties, with the addition of the Dynamic Text Settings, where you can set up the reveal animation, custom reveal pause config to add an extra wait time after certain characters and custom color presets to create tags that can be used in the color related effects.</p>
+<p><img src="../images/DynamicTextUGUIInspector.png" alt="Dynamic Text UGUI Inspector"></p>
+<h2 id="text-effects">Text Effects</h2>
+<p>You can add effects to the text using the custom rich-text implementation, you can checkout the reference for all effects lower down this guide.</p>
+<p>Parsing is updated whenever the text is changed, even in edit mode.</p>
+<p>The syntax is based on html, and follows this pattern: &lt;effect:property=value,property2=value&gt;Text Content. Alternatively, you can also write it as &lt;effect:value, value2&gt;Text Content&lt;/&gt; or even <effect>Text Content&lt;/&gt; to use the default values.</effect></p>
+<p><img src="../images/TextEffectSyntax.png" alt="Text Effect Syntax"></p>
+<p><img src="../images/TextEffectDisplay.gif" alt="Text Effect Display"></p>
+<h2 id="text-reveal-animations">Text Reveal Animations</h2>
+<p>You can select from a variety of reveal animations. These animations cause the text to set characters as visible one by one, using the specified animation, speed and mode.</p>
+<p>The mode defines when the text reveal is played. It can happen whenever the text is changed, only on awake, only on enable or never play automatically.</p>
+<p>You can manually trigger a reveal animation to play calling the RevealText() function in DynamicText objects</p>
+<p><img src="../images/TextRevealProperties.png" alt="Text Reveal Properties">
+<img src="../images/TextRevealAnimations.gif" alt="Reveal Animations"></p>
+<h2 id="text-effect-references">Text Effect References</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Tag</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wobble</td>
+<td>&lt;wobble:Speed, Strength&gt;</td>
+<td><img src="../images/TextEffectWobble.gif" alt="EffectWobble"></td>
+</tr>
+<tr>
+<td>Shake</td>
+<td>&lt;shake:Speed, Strength&gt;</td>
+<td><img src="../images/TextEffectShake.gif" alt="EffectShake"></td>
+</tr>
+<tr>
+<td>Collapse</td>
+<td>&lt;collapse:Strength, Delay&gt;</td>
+<td><img src="../images/TextEffectCollapse.gif" alt="EffectCollapse"></td>
+</tr>
+<tr>
+<td>Color</td>
+<td>&lt;color:ColorTag&gt; or &lt;color:r,g,b,a&gt;</td>
+<td><img src="../images/TextEffectColor.gif" alt="EffectColor"></td>
+</tr>
+<tr>
+<td>Rainbow</td>
+<td>&lt;rainbow:Speed&gt;</td>
+<td><img src="../images/TextEffectRainbow.gif" alt="EffectRainbow"></td>
+</tr>
+<tr>
+<td>Rainbow wave</td>
+<td>&lt;rainbowwave:Speed&gt;</td>
+<td><img src="../images/TextEffectRainbowWave.gif" alt="EffectRainbowWave"></td>
+</tr>
+<tr>
+<td>Scale</td>
+<td>&lt;scale:Strength&gt;</td>
+<td><img src="../images/TextEffectScale.gif" alt="EffectScale"></td>
+</tr>
+<tr>
+<td>Breathing</td>
+<td>&lt;breathing:Speed, Strength&gt;</td>
+<td><img src="../images/TextEffectBreathing.gif" alt="EffectBreathing"></td>
+</tr>
+<tr>
+<td>Fall</td>
+<td>&lt;fall:Strength, Start, Delay&gt;</td>
+<td><img src="../images/TextEffectFall.gif" alt="EffectFall"></td>
+</tr>
+<tr>
+<td>Gradient</td>
+<td>&lt;gradient:Speed, Color1, Color2, ...&gt;</td>
+<td><img src="../images/TextEffectGradient.gif" alt="EffectGradient"></td>
+</tr>
+<tr>
+<td>Gradient wave</td>
+<td>&lt;gradientwave:Speed, Color1, Color2, ...&gt;</td>
+<td><img src="../images/TextEffectGradientWave.gif" alt="EffectGradientWave"></td>
+</tr>
+</tbody>
+</table>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

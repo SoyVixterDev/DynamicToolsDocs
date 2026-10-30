@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools.DynamicConversations
+  commentId: N:DynamicTools.DynamicConversations
+  id: DynamicConversations
+  parent: DynamicTools
+  children:
+  - DynamicTools.DynamicConversations.ChoiceNode
+  - DynamicTools.DynamicConversations.ConversationAsset
+  - DynamicTools.DynamicConversations.ConversationChoice
+  - DynamicTools.DynamicConversations.ConversationReplaceManager
+  - DynamicTools.DynamicConversations.ConversationRunner
+  - DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode
+  - DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  - DynamicTools.DynamicConversations.ConversationTree
+  - DynamicTools.DynamicConversations.DynamicConversationsPreferences
+  - DynamicTools.DynamicConversations.Editor
+  - DynamicTools.DynamicConversations.EventNode
+  - DynamicTools.DynamicConversations.EventNodeBool
+  - DynamicTools.DynamicConversations.EventNodeFloat
+  - DynamicTools.DynamicConversations.EventNodeInteger
+  - DynamicTools.DynamicConversations.EventNodeString
+  - DynamicTools.DynamicConversations.EventNodeVector2
+  - DynamicTools.DynamicConversations.EventNodeVector3
+  - DynamicTools.DynamicConversations.EventNodeVoid
+  - DynamicTools.DynamicConversations.Extras
+  - DynamicTools.DynamicConversations.LineNode
+  - DynamicTools.DynamicConversations.Node
+  - DynamicTools.DynamicConversations.Portrait
+  - DynamicTools.DynamicConversations.RootNode
+  - DynamicTools.DynamicConversations.SimpleNode
+  - DynamicTools.DynamicConversations.SpeakerProfile
+  - DynamicTools.DynamicConversations.WaitNode
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools.DynamicConversations
+  nameWithType: DynamicTools.DynamicConversations
+  fullName: DynamicTools.DynamicConversations
+  type: Namespace
+  assemblies:
+  - DynamicTools.DynamicConversations.Runtime
+references:
+- uid: DynamicTools.DynamicConversations.Editor
+  commentId: N:DynamicTools.DynamicConversations.Editor
+  name: DynamicTools.DynamicConversations.Editor
+  nameWithType: DynamicTools.DynamicConversations.Editor
+  fullName: DynamicTools.DynamicConversations.Editor
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor
+    name: Editor
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Editor
+    name: Editor
+- uid: DynamicTools.DynamicConversations.Extras
+  commentId: N:DynamicTools.DynamicConversations.Extras
+  name: DynamicTools.DynamicConversations.Extras
+  nameWithType: DynamicTools.DynamicConversations.Extras
+  fullName: DynamicTools.DynamicConversations.Extras
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  - name: .
+  - uid: DynamicTools.DynamicConversations.Extras
+    name: Extras
+- uid: DynamicTools.DynamicConversations.ChoiceNode
+  commentId: T:DynamicTools.DynamicConversations.ChoiceNode
+  href: DynamicTools.DynamicConversations.ChoiceNode.html
+  name: ChoiceNode
+  nameWithType: ChoiceNode
+  fullName: DynamicTools.DynamicConversations.ChoiceNode
+- uid: DynamicTools.DynamicConversations.ConversationAsset
+  commentId: T:DynamicTools.DynamicConversations.ConversationAsset
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.ConversationAsset.html
+  name: ConversationAsset
+  nameWithType: ConversationAsset
+  fullName: DynamicTools.DynamicConversations.ConversationAsset
+- uid: DynamicTools.DynamicConversations.ConversationChoice
+  commentId: T:DynamicTools.DynamicConversations.ConversationChoice
+  href: DynamicTools.DynamicConversations.ConversationChoice.html
+  name: ConversationChoice
+  nameWithType: ConversationChoice
+  fullName: DynamicTools.DynamicConversations.ConversationChoice
+- uid: DynamicTools.DynamicConversations.ConversationReplaceManager
+  commentId: T:DynamicTools.DynamicConversations.ConversationReplaceManager
+  href: DynamicTools.DynamicConversations.ConversationReplaceManager.html
+  name: ConversationReplaceManager
+  nameWithType: ConversationReplaceManager
+  fullName: DynamicTools.DynamicConversations.ConversationReplaceManager
+- uid: DynamicTools.DynamicConversations.ConversationRunner
+  commentId: T:DynamicTools.DynamicConversations.ConversationRunner
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.ConversationRunner.html
+  name: ConversationRunner
+  nameWithType: ConversationRunner
+  fullName: DynamicTools.DynamicConversations.ConversationRunner
+- uid: DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode
+  commentId: T:DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.ConversationRunner.html
+  name: ConversationRunner.AutoAdvanceMode
+  nameWithType: ConversationRunner.AutoAdvanceMode
+  fullName: DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.ConversationRunner
+    name: ConversationRunner
+    href: DynamicTools.DynamicConversations.ConversationRunner.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode
+    name: AutoAdvanceMode
+    href: DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode.html
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.ConversationRunner
+    name: ConversationRunner
+    href: DynamicTools.DynamicConversations.ConversationRunner.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode
+    name: AutoAdvanceMode
+    href: DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode.html
+- uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  commentId: T:DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.ConversationRunner.html
+  name: ConversationRunner.TypingSoundMode
+  nameWithType: ConversationRunner.TypingSoundMode
+  fullName: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+  spec.csharp:
+  - uid: DynamicTools.DynamicConversations.ConversationRunner
+    name: ConversationRunner
+    href: DynamicTools.DynamicConversations.ConversationRunner.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+    name: TypingSoundMode
+    href: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.html
+  spec.vb:
+  - uid: DynamicTools.DynamicConversations.ConversationRunner
+    name: ConversationRunner
+    href: DynamicTools.DynamicConversations.ConversationRunner.html
+  - name: .
+  - uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+    name: TypingSoundMode
+    href: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode.html
+- uid: DynamicTools.DynamicConversations.ConversationTree
+  commentId: T:DynamicTools.DynamicConversations.ConversationTree
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.ConversationTree.html
+  name: ConversationTree
+  nameWithType: ConversationTree
+  fullName: DynamicTools.DynamicConversations.ConversationTree
+- uid: DynamicTools.DynamicConversations.DynamicConversationsPreferences
+  commentId: T:DynamicTools.DynamicConversations.DynamicConversationsPreferences
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.DynamicConversationsPreferences.html
+  name: DynamicConversationsPreferences
+  nameWithType: DynamicConversationsPreferences
+  fullName: DynamicTools.DynamicConversations.DynamicConversationsPreferences
+- uid: DynamicTools.DynamicConversations.EventNode
+  commentId: T:DynamicTools.DynamicConversations.EventNode
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.EventNode.html
+  name: EventNode
+  nameWithType: EventNode
+  fullName: DynamicTools.DynamicConversations.EventNode
+- uid: DynamicTools.DynamicConversations.EventNodeBool
+  commentId: T:DynamicTools.DynamicConversations.EventNodeBool
+  href: DynamicTools.DynamicConversations.EventNodeBool.html
+  name: EventNodeBool
+  nameWithType: EventNodeBool
+  fullName: DynamicTools.DynamicConversations.EventNodeBool
+- uid: DynamicTools.DynamicConversations.EventNodeFloat
+  commentId: T:DynamicTools.DynamicConversations.EventNodeFloat
+  href: DynamicTools.DynamicConversations.EventNodeFloat.html
+  name: EventNodeFloat
+  nameWithType: EventNodeFloat
+  fullName: DynamicTools.DynamicConversations.EventNodeFloat
+- uid: DynamicTools.DynamicConversations.EventNodeInteger
+  commentId: T:DynamicTools.DynamicConversations.EventNodeInteger
+  href: DynamicTools.DynamicConversations.EventNodeInteger.html
+  name: EventNodeInteger
+  nameWithType: EventNodeInteger
+  fullName: DynamicTools.DynamicConversations.EventNodeInteger
+- uid: DynamicTools.DynamicConversations.EventNodeString
+  commentId: T:DynamicTools.DynamicConversations.EventNodeString
+  href: DynamicTools.DynamicConversations.EventNodeString.html
+  name: EventNodeString
+  nameWithType: EventNodeString
+  fullName: DynamicTools.DynamicConversations.EventNodeString
+- uid: DynamicTools.DynamicConversations.EventNodeVector2
+  commentId: T:DynamicTools.DynamicConversations.EventNodeVector2
+  href: DynamicTools.DynamicConversations.EventNodeVector2.html
+  name: EventNodeVector2
+  nameWithType: EventNodeVector2
+  fullName: DynamicTools.DynamicConversations.EventNodeVector2
+- uid: DynamicTools.DynamicConversations.EventNodeVector3
+  commentId: T:DynamicTools.DynamicConversations.EventNodeVector3
+  href: DynamicTools.DynamicConversations.EventNodeVector3.html
+  name: EventNodeVector3
+  nameWithType: EventNodeVector3
+  fullName: DynamicTools.DynamicConversations.EventNodeVector3
+- uid: DynamicTools.DynamicConversations.EventNodeVoid
+  commentId: T:DynamicTools.DynamicConversations.EventNodeVoid
+  href: DynamicTools.DynamicConversations.EventNodeVoid.html
+  name: EventNodeVoid
+  nameWithType: EventNodeVoid
+  fullName: DynamicTools.DynamicConversations.EventNodeVoid
+- uid: DynamicTools.DynamicConversations.LineNode
+  commentId: T:DynamicTools.DynamicConversations.LineNode
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.LineNode.html
+  name: LineNode
+  nameWithType: LineNode
+  fullName: DynamicTools.DynamicConversations.LineNode
+- uid: DynamicTools.DynamicConversations.Node
+  commentId: T:DynamicTools.DynamicConversations.Node
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: DynamicTools.DynamicConversations.Node
+- uid: DynamicTools.DynamicConversations.Portrait
+  commentId: T:DynamicTools.DynamicConversations.Portrait
+  href: DynamicTools.DynamicConversations.Portrait.html
+  name: Portrait
+  nameWithType: Portrait
+  fullName: DynamicTools.DynamicConversations.Portrait
+- uid: DynamicTools.DynamicConversations.RootNode
+  commentId: T:DynamicTools.DynamicConversations.RootNode
+  href: DynamicTools.DynamicConversations.RootNode.html
+  name: RootNode
+  nameWithType: RootNode
+  fullName: DynamicTools.DynamicConversations.RootNode
+- uid: DynamicTools.DynamicConversations.SimpleNode
+  commentId: T:DynamicTools.DynamicConversations.SimpleNode
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.SimpleNode.html
+  name: SimpleNode
+  nameWithType: SimpleNode
+  fullName: DynamicTools.DynamicConversations.SimpleNode
+- uid: DynamicTools.DynamicConversations.SpeakerProfile
+  commentId: T:DynamicTools.DynamicConversations.SpeakerProfile
+  parent: DynamicTools.DynamicConversations
+  href: DynamicTools.DynamicConversations.SpeakerProfile.html
+  name: SpeakerProfile
+  nameWithType: SpeakerProfile
+  fullName: DynamicTools.DynamicConversations.SpeakerProfile
+- uid: DynamicTools.DynamicConversations.WaitNode
+  commentId: T:DynamicTools.DynamicConversations.WaitNode
+  href: DynamicTools.DynamicConversations.WaitNode.html
+  name: WaitNode
+  nameWithType: WaitNode
+  fullName: DynamicTools.DynamicConversations.WaitNode
+- uid: DynamicTools.DynamicConversations
+  commentId: N:DynamicTools.DynamicConversations
+  name: DynamicTools.DynamicConversations
+  nameWithType: DynamicTools.DynamicConversations
+  fullName: DynamicTools.DynamicConversations
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations

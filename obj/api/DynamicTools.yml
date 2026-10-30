@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: DynamicTools
+  id: DynamicTools
+  children:
+  - DynamicTools.DynamicConversations
+  - DynamicTools.DynamicEvents
+  - DynamicTools.DynamicSoundFX
+  - DynamicTools.DynamicTextFX
+  - DynamicTools.DynamicUtilities
+  langs:
+  - csharp
+  - vb
+  name: DynamicTools
+  type: Namespace
+references:
+- uid: DynamicTools.DynamicConversations
+  commentId: N:DynamicTools.DynamicConversations
+  name: DynamicTools.DynamicConversations
+  nameWithType: DynamicTools.DynamicConversations
+  fullName: DynamicTools.DynamicConversations
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+- uid: DynamicTools.DynamicEvents
+  commentId: N:DynamicTools.DynamicEvents
+  name: DynamicTools.DynamicEvents
+  nameWithType: DynamicTools.DynamicEvents
+  fullName: DynamicTools.DynamicEvents
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicEvents
+    name: DynamicEvents
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicEvents
+    name: DynamicEvents
+- uid: DynamicTools.DynamicSoundFX
+  commentId: N:DynamicTools.DynamicSoundFX
+  name: DynamicTools.DynamicSoundFX
+  nameWithType: DynamicTools.DynamicSoundFX
+  fullName: DynamicTools.DynamicSoundFX
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicSoundFX
+    name: DynamicSoundFX
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicSoundFX
+    name: DynamicSoundFX
+- uid: DynamicTools.DynamicTextFX
+  commentId: N:DynamicTools.DynamicTextFX
+  name: DynamicTools.DynamicTextFX
+  nameWithType: DynamicTools.DynamicTextFX
+  fullName: DynamicTools.DynamicTextFX
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+- uid: DynamicTools.DynamicUtilities
+  commentId: N:DynamicTools.DynamicUtilities
+  name: DynamicTools.DynamicUtilities
+  nameWithType: DynamicTools.DynamicUtilities
+  fullName: DynamicTools.DynamicUtilities
+  spec.csharp:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicUtilities
+    name: DynamicUtilities
+  spec.vb:
+  - uid: DynamicTools
+    name: DynamicTools
+  - name: .
+  - uid: DynamicTools.DynamicUtilities
+    name: DynamicUtilities

@@ -1,0 +1,370 @@
+### YamlMime:TableOfContent
+items:
+- uid: DynamicTools
+  name: DynamicTools
+  type: Namespace
+  items:
+  - uid: DynamicTools.DynamicConversations
+    name: DynamicConversations
+    type: Namespace
+    items:
+    - uid: DynamicTools.DynamicConversations.Editor
+      name: Editor
+      type: Namespace
+      items:
+      - uid: DynamicTools.DynamicConversations.Editor.Experimental
+        name: Experimental
+        type: Namespace
+        items:
+        - uid: DynamicTools.DynamicConversations.Editor.Experimental.ConversationImportExportManager
+          name: ConversationImportExportManager
+          type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.ConversationEditorWindow
+        name: ConversationEditorWindow
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.ConversationGraphView
+        name: ConversationGraphView
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.ConversationGraphView.UxmlSerializedData
+        name: ConversationGraphView.UxmlSerializedData
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.ConversationRunnerEditor
+        name: ConversationRunnerEditor
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.InspectorView
+        name: InspectorView
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.InspectorView.UxmlSerializedData
+        name: InspectorView.UxmlSerializedData
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.LineNodeEditor
+        name: LineNodeEditor
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.NodeView
+        name: NodeView
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.SplitView
+        name: SplitView
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Editor.SplitView.UxmlSerializedData
+        name: SplitView.UxmlSerializedData
+        type: Class
+    - uid: DynamicTools.DynamicConversations.Extras
+      name: Extras
+      type: Namespace
+      items:
+      - uid: DynamicTools.DynamicConversations.Extras.Editor
+        name: Editor
+        type: Namespace
+        items:
+        - uid: DynamicTools.DynamicConversations.Extras.Editor.ListToPopupDrawer
+          name: ListToPopupDrawer
+          type: Class
+      - uid: DynamicTools.DynamicConversations.Extras.CSVParser
+        name: CSVParser
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Extras.ExportField
+        name: ExportField
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Extras.InvalidStringDataException
+        name: InvalidStringDataException
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Extras.ListToPopupAttribute
+        name: ListToPopupAttribute
+        type: Class
+      - uid: DynamicTools.DynamicConversations.Extras.Utilities
+        name: Utilities
+        type: Class
+    - uid: DynamicTools.DynamicConversations.ChoiceNode
+      name: ChoiceNode
+      type: Class
+    - uid: DynamicTools.DynamicConversations.ConversationAsset
+      name: ConversationAsset
+      type: Class
+    - uid: DynamicTools.DynamicConversations.ConversationChoice
+      name: ConversationChoice
+      type: Class
+    - uid: DynamicTools.DynamicConversations.ConversationReplaceManager
+      name: ConversationReplaceManager
+      type: Class
+    - uid: DynamicTools.DynamicConversations.ConversationRunner
+      name: ConversationRunner
+      type: Class
+    - uid: DynamicTools.DynamicConversations.ConversationRunner.AutoAdvanceMode
+      name: ConversationRunner.AutoAdvanceMode
+      type: Enum
+    - uid: DynamicTools.DynamicConversations.ConversationRunner.TypingSoundMode
+      name: ConversationRunner.TypingSoundMode
+      type: Enum
+    - uid: DynamicTools.DynamicConversations.ConversationTree
+      name: ConversationTree
+      type: Class
+    - uid: DynamicTools.DynamicConversations.DynamicConversationsPreferences
+      name: DynamicConversationsPreferences
+      type: Class
+    - uid: DynamicTools.DynamicConversations.EventNode
+      name: EventNode
+      type: Class
+    - uid: DynamicTools.DynamicConversations.EventNodeBool
+      name: EventNodeBool
+      type: Class
+    - uid: DynamicTools.DynamicConversations.EventNodeFloat
+      name: EventNodeFloat
+      type: Class
+    - uid: DynamicTools.DynamicConversations.EventNodeInteger
+      name: EventNodeInteger
+      type: Class
+    - uid: DynamicTools.DynamicConversations.EventNodeString
+      name: EventNodeString
+      type: Class
+    - uid: DynamicTools.DynamicConversations.EventNodeVector2
+      name: EventNodeVector2
+      type: Class
+    - uid: DynamicTools.DynamicConversations.EventNodeVector3
+      name: EventNodeVector3
+      type: Class
+    - uid: DynamicTools.DynamicConversations.EventNodeVoid
+      name: EventNodeVoid
+      type: Class
+    - uid: DynamicTools.DynamicConversations.LineNode
+      name: LineNode
+      type: Class
+    - uid: DynamicTools.DynamicConversations.Node
+      name: Node
+      type: Class
+    - uid: DynamicTools.DynamicConversations.Portrait
+      name: Portrait
+      type: Struct
+    - uid: DynamicTools.DynamicConversations.RootNode
+      name: RootNode
+      type: Class
+    - uid: DynamicTools.DynamicConversations.SimpleNode
+      name: SimpleNode
+      type: Class
+    - uid: DynamicTools.DynamicConversations.SpeakerProfile
+      name: SpeakerProfile
+      type: Class
+    - uid: DynamicTools.DynamicConversations.WaitNode
+      name: WaitNode
+      type: Class
+  - uid: DynamicTools.DynamicEvents
+    name: DynamicEvents
+    type: Namespace
+    items:
+    - uid: DynamicTools.DynamicEvents.DynamicEventChannel
+      name: DynamicEventChannel
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventChannelBool
+      name: DynamicEventChannelBool
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventChannelFloat
+      name: DynamicEventChannelFloat
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventChannelInt
+      name: DynamicEventChannelInt
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventChannelString
+      name: DynamicEventChannelString
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventChannelVector2
+      name: DynamicEventChannelVector2
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventChannelVector3
+      name: DynamicEventChannelVector3
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventChannelVoid
+      name: DynamicEventChannelVoid
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventListenerBool
+      name: DynamicEventListenerBool
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventListenerFloat
+      name: DynamicEventListenerFloat
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventListenerInteger
+      name: DynamicEventListenerInteger
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventListenerString
+      name: DynamicEventListenerString
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventListenerVector2
+      name: DynamicEventListenerVector2
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventListenerVector3
+      name: DynamicEventListenerVector3
+      type: Class
+    - uid: DynamicTools.DynamicEvents.DynamicEventListenerVoid
+      name: DynamicEventListenerVoid
+      type: Class
+  - uid: DynamicTools.DynamicSoundFX
+    name: DynamicSoundFX
+    type: Namespace
+    items:
+    - uid: DynamicTools.DynamicSoundFX.Editor
+      name: Editor
+      type: Namespace
+      items:
+      - uid: DynamicTools.DynamicSoundFX.Editor.SoundEffectEditor
+        name: SoundEffectEditor
+        type: Class
+    - uid: DynamicTools.DynamicSoundFX.SoundEffect
+      name: SoundEffect
+      type: Class
+  - uid: DynamicTools.DynamicTextFX
+    name: DynamicTextFX
+    type: Namespace
+    items:
+    - uid: DynamicTools.DynamicTextFX.Editor
+      name: Editor
+      type: Namespace
+      items:
+      - uid: DynamicTools.DynamicTextFX.Editor.DynamicTextEditor
+        name: DynamicTextEditor
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Editor.DynamicTextUGUIEditor
+        name: DynamicTextUGUIEditor
+        type: Class
+    - uid: DynamicTools.DynamicTextFX.Effects
+      name: Effects
+      type: Namespace
+      items:
+      - uid: DynamicTools.DynamicTextFX.Effects.BreathingEffect
+        name: BreathingEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.CollapseEffect
+        name: CollapseEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.ColorEffect
+        name: ColorEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.FallEffect
+        name: FallEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.GradientEffect
+        name: GradientEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.GradientWaveEffect
+        name: GradientWaveEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.RainbowEffect
+        name: RainbowEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.RainbowWaveEffect
+        name: RainbowWaveEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.ScaleEffect
+        name: ScaleEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.ShakeEffect
+        name: ShakeEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.TextEffect
+        name: TextEffect
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Effects.WobbleEffect
+        name: WobbleEffect
+        type: Class
+    - uid: DynamicTools.DynamicTextFX.Reveals
+      name: Reveals
+      type: Namespace
+      items:
+      - uid: DynamicTools.DynamicTextFX.Reveals.AppearReveal
+        name: AppearReveal
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Reveals.ExpandReveal
+        name: ExpandReveal
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Reveals.FadeReveal
+        name: FadeReveal
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Reveals.PanReveal
+        name: PanReveal
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Reveals.PopReveal
+        name: PopReveal
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Reveals.RevealAnimation
+        name: RevealAnimation
+        type: Enum
+      - uid: DynamicTools.DynamicTextFX.Reveals.TextRevealAnimation
+        name: TextRevealAnimation
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Reveals.VerticalExpandReveal
+        name: VerticalExpandReveal
+        type: Class
+    - uid: DynamicTools.DynamicTextFX.Syntax
+      name: Syntax
+      type: Namespace
+      items:
+      - uid: DynamicTools.DynamicTextFX.Syntax.AST
+        name: AST
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.ArgumentNode
+        name: ArgumentNode
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.CloseTagNode
+        name: CloseTagNode
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.EvalNode
+        name: EvalNode
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.Lexer
+        name: Lexer
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.Node
+        name: Node
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.OpenTagNode
+        name: OpenTagNode
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.Parser
+        name: Parser
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.TextNode
+        name: TextNode
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.Token
+        name: Token
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.TokenStream
+        name: TokenStream
+        type: Class
+      - uid: DynamicTools.DynamicTextFX.Syntax.TokenType
+        name: TokenType
+        type: Enum
+    - uid: DynamicTools.DynamicTextFX.DynamicText
+      name: DynamicText
+      type: Class
+    - uid: DynamicTools.DynamicTextFX.DynamicTextUGUI
+      name: DynamicTextUGUI
+      type: Class
+    - uid: DynamicTools.DynamicTextFX.IDynamicText
+      name: IDynamicText
+      type: Interface
+    - uid: DynamicTools.DynamicTextFX.RevealMode
+      name: RevealMode
+      type: Enum
+  - uid: DynamicTools.DynamicUtilities
+    name: DynamicUtilities
+    type: Namespace
+    items:
+    - uid: DynamicTools.DynamicUtilities.Editor
+      name: Editor
+      type: Namespace
+      items:
+      - uid: DynamicTools.DynamicUtilities.Editor.SerializableDictionaryDrawer
+        name: SerializableDictionaryDrawer
+        type: Class
+    - uid: DynamicTools.DynamicUtilities.DynamicDebug
+      name: DynamicDebug
+      type: Class
+    - uid: DynamicTools.DynamicUtilities.ObjectPool`1
+      name: ObjectPool<T>
+      type: Class
+    - uid: DynamicTools.DynamicUtilities.SerializableDictionary
+      name: SerializableDictionary
+      type: Class
+    - uid: DynamicTools.DynamicUtilities.SerializableDictionary`2
+      name: SerializableDictionary<TKey, TValue>
+      type: Class
+memberLayout: SamePage
