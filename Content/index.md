@@ -23,7 +23,7 @@ Here you can access the full documentation for all classes, methods and properti
 
 The reference includes the documentation for the entire suite of tools, inside you can check information about classes, namespaces, methods and properties for every single asset in the suite.
 
-* [View Reference Index](../api/DynamicTools.html)
+* [View Reference Index](../obj/api/DynamicTools.html)
 
 ## About the assets
 These assets were created by SoyVixterDev <sub>(that's me!)</sub>
